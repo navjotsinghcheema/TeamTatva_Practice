@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IOT PRODUCTS</title>
+     <link rel="stylesheet" type="text/css" href="product.css">
+
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+	  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+  </head>
+  <body>
+    <div ng-app="myApp" ng-controller="ctrl">
+
+      <md-content>
+        <br>
+        <md-toolbar>
+      <div class="md-toolbar-tools">
+        <md-button class="md-icon-button" aria-label="Settings">
+          <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+        </md-button>
+        <h2>
+          <span>IOT DEVICES</span>
+        </h2>
+        <span flex></span>
+        <md-button class="md-icon-button" aria-label="Favorite">
+          <md-icon md-svg-icon="img/icons/favorite.svg" style="color: greenyellow;"></md-icon>
+        </md-button>
+        <md-button class="md-icon-button" aria-label="More">
+          <md-icon md-svg-icon="img/icons/more_vert.svg"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+
+          <!-- <md-subheader class="md-no-sticky"  layout-align="center center" >product list</md-subheader>  -->
+
+ <section layout="row" layout-sm="column" layout-align="center center" layout-padding="50px" layout-wrap><b>PRODUCT LIST</b> </section>
+
+
+
+
+
+
+
+
+
+
+          <md-grid-list    md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6"
+      md-row-height-gt-md="1:1" md-row-height="2:2"
+      md-gutter="12px" md-gutter-gt-sm="8px" >
+  <md-grid-tile class="dongle" ng-repeat="x in productList" md-rowspan="3" md-colspan="3" md-colspan-sm="1" md-colspan-xs="1">
+
+
+
+
+        <md-grid-tile-header class="header">
+       <h3 id="pc">{{ x.productName }}: {{ x.category }}</h3>
+
+          <h3 id="cc">
+          cost:{{x.cost}}</h3>
+
+      </md-grid-tile-header>
+        <img ng-src=" {{ x.image }}" alt="image" />
+        <!-- <h4 id="sc">{{x.specs}}</h4> -->
+
+       <md-grid-tile-footer class="footer">
+
+ <section class="buutons" layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+
+      <md-button class="md-raised md-primary" ng-href="{{productList}}" target="_blank">ADD TO CART</md-button>
+ <md-button class="md-raised md-primary" ng-href="{{x.specs}}"target="_blank">BUY</md-button>
+</section>
+</md-grid-tile-footer>
+
+  </md-grid-tile>
+  <!-- <md-grid-tile class="green"   md-rowspan="3" md-colspan="2" md-colspan-sm="1" md-colspan-xs="1">
+    <h3>productId:{{ x.productId }}</h3>
+    <h4>productName:{{ x.productName }}</h4>
+     <img ng-src=" {{ x.image }}" alt="image" />
+
+  </md-grid-tile>
+  <md-grid-tile class="yellow"  md-rowspan="3" md-colspan="2" md-colspan-sm="1" md-colspan-xs="1">
+    <h3>productId:{{ x.productId }}</h3>
+    <h4>productName:{{ x.productName }}</h4>
+     <img ng-src=" {{ x.image }}" alt="image" />
+
+
+
+  </md-grid-tile>
+  <md-grid-tile class="blue"  md-rowspan="3" md-colspan="2" md-colspan-sm="1" md-colspan-xs="1">
+    <h3>productId:{{ x.productId }}</h3>
+    <h4>productName:{{ x.productName }}</h4>
+     <img ng-src=" {{ x.image }}" alt="image" />
+
+
+  </md-grid-tile> -->
+  <!-- <md-grid-tile class="red"
+      md-rowspan="2" md-colspan="2" md-colspan-sm="1" md-colspan-xs="1">
+    <md-grid-tile-footer>
+      <h3>#5: (2r x 2c)</h3>
+    </md-grid-tile-footer>
+  </md-grid-tile>
+  <md-grid-tile class="green"
+      md-rowspan="2" >
+    <md-grid-tile-footer>
+      <h3>#6: (2r x 1c)</h3>
+    </md-grid-tile-footer>
+  </md-grid-tile> -->
+</md-grid-list>
+
+
+</div>
+
+<script>
+angular.module('myApp',['ngMaterial'])
+.controller('ctrl',function ($scope, $http)
+{
+$http.get("http://localhost:8080/productList/").success(function(response){
+  $scope.productList = response;
+
+ // $scope.googleUrl = 'http://google.com';
+});
+});
+
+</script>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+ -->
+  </body>
+</html>
