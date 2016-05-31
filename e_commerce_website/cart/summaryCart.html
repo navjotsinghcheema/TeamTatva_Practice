@@ -1,0 +1,62 @@
+<html>
+<head>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+</head>
+<body>
+  <div ng-app="myCart" ng-controller="Cartctrl" flex>
+    <md-dialog aria-label="Cart Summary" ng-cloak >
+      <form>
+        <md-toolbar>
+          <div class="md-toolbar-tools">
+            <h2>Cart Summary</h2>
+            <span flex></span>
+            <md-button class="md-icon-button" ng-click="cancel()">
+              <md-icon md-svg-src="ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+            </md-button>
+          </div>
+        </md-toolbar>
+        <md-dialog-content>
+          <div class="md-dialog-content">
+            <!-- <p>tapas</p> -->
+            <span ng-repeat="x in cart">
+            <div layout="row" flex="99" ng-repeat="y in x.cart">
+              <div layout="column" flex="22">
+                <md-input-container >
+                  <label>Product Name</label>
+                  <input ng-model="productName" type="number">
+                </md-input-container>
+              </div>
+
+              <div layout="column" flex="22">
+                <md-input-container >
+                  <label>Price</label>
+                  <input ng-model="totalCost">
+
+                </md-input-container>
+              </div>
+
+          </div>
+          </span>
+          <md-dialog-actions layout="row">
+            <span flex></span>
+            <md-button ng-click="answer('delete')">
+              Delete from Cart
+            </md-button>
+            <md-button ng-click="answer('useful')" style="margin-right:20px;">
+              Proceed to pay
+            </md-button>
+          </md-dialog-actions>
+        </md-dialog-content>
+      </form>
+    </md-dialog>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+</body>
+</html>
