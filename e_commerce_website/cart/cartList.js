@@ -19,64 +19,33 @@ angular.module('myCart',['ngMaterial'])
             }
           }
         }
-        $scope.summaryDesc=function(productName,totalCost) {
+        $scope.summaryDesc=function(ev) {
           //alert("gh");
            //$scope.status=' ';
           // $scope.customFullscreen = $mdMedia('xs') || $mdMedia('sm');
            var useFullScreen = ($mdMedia('sm') || $mdMedia('xs'))  && $scope.customFullscreen;
-
+           console.log
         $mdDialog.show({
-          //controller:Otherctrl;
+            controller: function($scope, productName) {
+           $scope.productName = productName;
+           //$scope.totalCost = totalCost;
+            },
           //alert("gh");
           templateUrl:'summaryCart.html',
           parent: angular.element(document.body),
-          targetEvent: productName,totalCost,
+          targetEvent:ev,
           clickOutsideToClose:true,
+          locals: {productName: $scope.productName}
+
           // fullscreen: useFullScreen
 
         })
-//         .then(
-//        function(answer) {
-//          $scope.status = 'You said the information was "' + answer + '".';
-//        },
-//        function() {
-//          $scope.status = 'You cancelled the dialog.';
-//        }
-//    );
-//    function DialogController($scope, $mdDialog) {
-//   $scope.hide = function() {
-//     $mdDialog.hide();
-//   };
-//
-//   $scope.cancel = function() {
-//     $mdDialog.cancel();
-//   };
-//
-//   $scope.answer = function(answer) {
-//     $mdDialog.hide(answer);
-//   };
-// }
 
         }
 
       });
     });
   }
-  // $scope.summaryDesc=function(id) {
-  //   alert("gh");
-  //    $scope.status=' ';
-  //    $scope.customFullscreen = $mdMedia('xs') || $mdMedia('sm');
-  //
-  // $mdDialog.show({
-  //   controller:OtherCtrl;
-  //   templateUrl:'summaryCart.html',
-  //   parent: angular.element(document.body),
-  //   targetEvent: ev,
-  //   clickOutsideToClose:true,
-  //   fullscreen: useFullScreen
-  //
-  // })
-  //
-  // }
+
 
 });
