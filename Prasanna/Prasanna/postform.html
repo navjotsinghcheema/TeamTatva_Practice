@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+      <form novalidate class="simple-form" ng-submit="submitform()">
+        Id: <input type="text" ng-model="dummy.productId" required /><br />
+        Name: <input type="text" ng-model="dummy.productName" required /><br />
+        Category: <input type="text" ng-model="dummy.category" required /></br>
+        Specs:<input type="text" ng-model="dummy.specs" required/><br />
+        Stock:<input type="text" ng-model="dummy.stock" require/><br/>
+        Cost:<input type="text" ng-model="dummy.cost" required/><br/>
+        <!-- Image:<input type="text" ng-click="productList.image"/></br> -->
+        <!-- <input type="button" ng-click="reset()" value="Reset" /> -->
+        <button type="submit" class="btn btn-primary" ng-click="update()">Submit</button>
+      </form>
+      <pre>dummy = {{dummy | json}}</pre>
+      <pre>productList = {{productList | json}}</pre>
+    </div>
+
+    </body>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+
+        <script>
+        angular.module('myApp', [])
+        .controller(myCtrl,function($scope, $http){
+          $scope.dummy={};
+          $scope.update=function(){
+            $http({
+              method:'POST',
+              url:'http://localhost:8080/productList',
+              data:$scope.dummy,
+               headers:{'Content-Type': 'application/JSON'}
+            }).success(function(data){
+              if(data.errors){
+                $scope.errorName=data.errors.productId;
+                $scope.errorName=data.errors.productName;
+                $scope.errorName=data.errors.category;
+                $scope.errorName=data.errors.specs;
+                $scope.errorName=data.errors.stock;
+                $scope.errorName=data.errors.cost;
+
+              }else{
+                $scope.message=data.message;
+              }
+
+            });
+          };
+        });
+</script>
+ </html>
