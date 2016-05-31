@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
 
+=======
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+
+
+>>>>>>> 91a19d8c6cb6a76a4e716366d46e46cb75949bf6
 sudo apt-get install -y nodejs

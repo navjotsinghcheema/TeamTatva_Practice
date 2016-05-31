@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ng-app defines the AngularJS application -->
 
 ng-model directive binds the value of HTML controls (input, select, textarea) to application data.
@@ -12,3 +13,19 @@ Angular controllers controll Angular JS apps
 
 ng-controller --> defines the controller
 
+=======
+ng-app defines the AngularJS application -->
+
+ng-model directive binds the value of HTML controls (input, select, textarea) to application data.
+
+ng-bind directive binds application data to the HTML view.
+
+{{variable}} --> the variables created in ng-model are accessed  by this format
+
+
+Angular modules define Angular JS applications
+Angular controllers controll Angular JS apps
+
+ng-controller --> defines the controller
+
+>>>>>>> 91a19d8c6cb6a76a4e716366d46e46cb75949bf6

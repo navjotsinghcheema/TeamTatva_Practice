@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -97,3 +98,104 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <div ng-app="myCart" ng-controller="Cartctrl" flex>
+
+    <input ng-model="userId"></input>
+    <md-button class="md-raised md-warn" ng-click="getOrder(userId);" style="float:left">Show</md-button>
+
+    <md-whiteframe ng-repeat="x in cart" class="md-whiteframe-1dp" layout="row" flex="70" flex-offset="15">
+      <div layout="column" flex>
+
+        <span class="md-headline" ng-repeat="y in x.cart">{{productName=productDesc(y.productId).productName}}
+
+          <div layout="row" flex>
+            <md-input-container flex="50" layout layout-align="margin-left">
+              <!-- <span class="md-headline" ng-repeat="y in x.cart">{{y.productId}}</span> -->
+            </md-input-container>
+          </div>
+
+          <div layout="row" flex>
+            <div layout="column" flex="66">
+              <md-input-container flex>
+                <span class="md-headline">{{productDesc(y.productId).specs}}</span>
+              </md-input-container>
+            </div>
+            <div layout="column" flex="33">
+              <md-input-container flex>
+                <img ng-src="{{productDesc(y.productId).image}}" alt="Washed Out" width="300" height="150"  style="float:right">
+              </md-input-container>
+            </div>
+          </div>
+
+          <div layout="row" flex="99">
+            <div layout="column" flex="22">
+              <md-input-container >
+                <label>Quantity</label>
+                <input ng-model="quantity" type="number">
+              </md-input-container>
+            </div>
+
+            <div layout="column" flex="22">
+              <md-input-container >
+                <label>Price</label>
+                <input ng-model="productDesc(y.productId).cost">
+
+              </md-input-container>
+            </div>
+            <div layout="column" flex="22">
+              <md-input-container >
+                <label>Total</label>
+                <input ng-model="totalCost=quantity * productDesc(y.productId).cost" type="number">
+
+              </md-input-container>
+            </div>
+
+            <div layout="column" flex="33" >
+              <md-input-container flex="10">
+                <md-button class="md-raised md-warn" style="float:right">Remove</md-button>
+              </md-input-container>
+
+            </div>
+
+          </div>
+
+        </md-whiteframe>
+      </span>
+      <div layout="column" flex="33" >
+        <md-input-container flex="10">
+          <md-button class="md-primary md-raised" ng-click="summaryDesc(productName,totalCost)" style="float:right">Proceed</md-button>
+        </md-input-container>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+<script src="cartList.js"></script>
+
+</body>
+</html>
+>>>>>>> 91a19d8c6cb6a76a4e716366d46e46cb75949bf6
