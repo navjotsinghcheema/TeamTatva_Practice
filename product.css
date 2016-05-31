@@ -1,0 +1,37 @@
+.header{
+  background: white;
+  text-align:center ;
+  height: 90px;
+
+}
+#pc, #cc{
+  color: blue;
+  font-size: 15px;
+    text-align: left;;
+
+}
+#sc{
+  font-style: normal;
+  text-align: center;
+
+}
+.footer{
+  background: white;
+  text-align: left;
+}
+.dongle{
+/*border-radius: solid;
+border-color: black;
+border-bottom: solid;
+border-right:  solid;
+border-width: thin;
+border-left:  solid;
+border-top:  solid;
+border-width: thin;
+padding-bottom: 60px:*/
+
+}
+
+.buttons{
+  text-align: center;
+}
