@@ -43,8 +43,8 @@ angular.module('myApp',['ngMaterial','ui.router'])
   $state.go('products');
   productlist();
    $scope.predicate = 'cost';
- $scope.reverse = true;
- $scope.order = function(predicate) {
+   $scope.reverse = true;
+   $scope.order = function(predicate) {
    $scope.reverse = ($scope.predicate === predicate) ? !$scope.reverse : false;
    $scope.predicate = predicate;
  };
