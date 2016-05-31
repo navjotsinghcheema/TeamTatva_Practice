@@ -4940,6 +4940,24 @@
       "stock": 386,
       "cost": 600,
       "image": "http://lorempixel.com/400/200"
+    },
+    {
+      "productName": "ipsum",
+      "category": "digital cams",
+      "specs": "Ipsum ut aliqua ut officia labore in occaecat anim veniam.",
+      "stock": 85,
+      "cost": 7116,
+      "image": "http://lorempixel.com/400/200",
+      "id": 550
+    },
+    {
+      "productName": "ijdsz",
+      "category": "digital cams",
+      "specs": "24MP 50x zoom qua ut officia labore in occaecat anim veniam.",
+      "stock": 10,
+      "cost": 33000,
+      "image": "http://lorempixel.com/400/200",
+      "id": 551
     }
   ],
   "orders": [
@@ -5810,7 +5828,7 @@
       "oderDate": "Wed Sep 23 2015 18:59:31 GMT+0530 (India Standard Time)",
       "userId": 10,
       "address": "#127,Haring Street,Greenfields,Alaska,undefined",
-      "status": "dispatched",
+      "status": "order cancelled",
       "details": [
         {
           "productId": 407,
@@ -12418,7 +12436,7 @@
       "oderDate": "Tue Feb 24 2015 20:43:35 GMT+0530 (India Standard Time)",
       "userId": 10,
       "address": "#174,Baughman Place,Sena,Maine,undefined",
-      "status": "ready to ship",
+      "status": "order cancelled",
       "details": [
         {
           "productId": 2,
@@ -17570,7 +17588,7 @@
       "oderDate": "Wed Jul 15 2015 02:04:02 GMT+0530 (India Standard Time)",
       "userId": 160,
       "address": "#93,Elm Avenue,Ellerslie,Palau,undefined",
-      "status": "order placed",
+      "status": "order cancelled",
       "details": [
         {
           "productId": 332,
