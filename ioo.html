@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>IOT PRODUCTS</title>
+
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+
+  <link rel="stylesheet" type="text/css" href="product.css">
+
+</head>
+<body>
+  <div ng-app="myApp" ng-controller="ctrl" ng-cloak>
+
+    <md-content>
+
+<div>
+       <md-toolbar>
+      <div class="md-toolbar-tools">
+        <md-button aria-label="Go Back">
+        <h2>  IOT</h2>
+        </md-button>
+        <h2>
+          <span>Internet Of Things</span>
+        </h2>
+        <span flex=""></span>
+        <md-button class="md-raised" aria-label="Learn More">
+          Products
+        </md-button>
+        <!-- <md-button class="md-fab md-mini" aria-label="cost"> -->
+
+
+
+
+
+
+        <!-- </md-button> -->
+
+        <label>Search: <input ng-model="searchText"></label>
+      </div>
+</div>
+
+      <section layout="row" layout-sm="column" layout-align="center center" layout-padding="50px" layout-wrap><b>PRODUCT LIST</b> </section>
+
+      <md-grid-list    md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6"
+      md-row-height-gt-md="1:1" md-row-height="2:2"
+      md-gutter="8px" md-gutter-gt-sm="80px" >
+     <md-grid-tile
+      ng-repeat="x in productList | orderBy:predicate:reverse  | filter:searchText"
+      class="dongle"
+      md-rowspan="3"
+      md-colspan="2"
+      md-colspan-sm="1"
+      md-colspan-xs="1">
+
+      <md-grid-tile-header class="header">
+        <h3 id="pc">{{ x.productName }}: {{ x.category }}</h3>
+          <h3 id="pc">RS: {{ x.cost }}</h3>
+
+                   <span class="sortorder" ng-show="predicate === 'cost'" ng-class="{reverse:reverse}"></span>
+
+
+      </md-grid-tile-header>
+
+<md-button    ng-click="order('cost')" ng-if='$first'>cost</md-button>
+
+      <img ng-src=" {{ x.image }}" alt="image" />
+
+
+      <md-grid-tile-footer class="footer">
+
+        <section class="buttons" layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+          <md-button class="md-raised md-warn" ng-href="" target="_blank">ADD TO CART</md-button>
+          <md-button class="md-raised md-primary" ng-href="#/product/{{x.productId}}" >BUY</md-button>
+
+    </section>
+
+  </md-grid-tile-footer>
+
+
+</md-grid-tile><!-- end of ng-repeat : looping through product List -->
+
+</md-grid-list>
+<div ng-view></div>
+
+</div>
+
+
+
+
+
+</div>
+
+
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+<script type="text/javascript" src="iot.js">
+
+</script>
+
+
+
+</html>

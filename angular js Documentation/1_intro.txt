@@ -1,0 +1,16 @@
+Angular JS is a structural framework for dynamic web apps
+
+advantage
+>lesser code 
+>directives
+>Data binding
+>form,form validation
+>data binding
+>DOM event handling
+>unit testing
+>end-to-end testing
+>mocks
+>built to work for CRUD applications
+>high level abstraction
+>helps to decouple the client side apps to the server 
+>

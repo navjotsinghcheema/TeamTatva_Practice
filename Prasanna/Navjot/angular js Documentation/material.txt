@@ -1,0 +1,25 @@
+ng-app
+
+ng-cloal : 
+The ngCloak directive is used to prevent the Angular html template from being briefly displayed by the browser in its raw (uncompiled) form while your application is loading. Use this directive to avoid the undesirable flicker effect caused by the html template display.
+
+md-toolbar:	used to place a toolbar in the app 
+md-toolbar-tools	
+md-flex:		join
+
+md-primary
+md-accent
+md-warn
+
+md-content
+
+
+md-button
+md-checkbox
+md-progress-circular
+md-progress-linear
+md-radio-button
+md-slider
+md-switch
+md-tabs
+md-text-float

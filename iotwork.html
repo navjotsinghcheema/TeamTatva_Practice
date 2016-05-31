@@ -1,0 +1,58 @@
+
+
+
+
+
+      <section layout="row" layout-sm="column" layout-align="center center" layout-padding="50px" layout-wrap><b>PRODUCT LIST</b></section>
+
+      <md-grid-list    md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6"
+      md-row-height-gt-md="1:1" md-row-height="2:2"
+      md-gutter="8px" md-gutter-gt-sm="80px" >
+     <md-grid-tile
+      ng-repeat="x in productList | orderBy:predicate:reverse  | filter:searchText"
+      class="dongle"
+      md-rowspan="3"
+      md-colspan="2"
+      md-colspan-sm="1"
+      md-colspan-xs="1">
+
+      <md-grid-tile-header class="header">
+        <h3 id="pc">{{ x.productName }}: {{ x.category }}</h3>
+          <h3 id="pc">RS: {{ x.cost }}</h3>
+
+
+
+
+      </md-grid-tile-header>
+
+      <div>
+
+            <md-button  ng-click="order('cost')" ng-if='$first'>cost</md-button>
+          </div>
+
+
+ <!-- <span class="sortorder" ng-show="predicate === 'cost'" ng-class="{reverse:reverse}"></span> -->
+      <img ng-src=" {{ x.image }}" alt="image" />
+
+
+      <md-grid-tile-footer class="footer">
+
+        <section class="buttons" layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+          <md-button class="md-raised md-warn" ng-href="" target="_blank">ADD TO CART</md-button>
+          <md-button class="md-raised md-primary" ui-sref="product({productId:x.productId})" >BUY</md-button>
+
+    </section>
+
+  </md-grid-tile-footer>
+
+
+</md-grid-tile><!-- end of ng-repeat : looping through product List -->
+
+</md-grid-list>
+
+</div>
+
+
+
+
+</div>
