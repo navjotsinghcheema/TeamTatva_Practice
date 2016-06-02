@@ -1,0 +1,1819 @@
+<<<<<<< HEAD
+{
+
+      "productList":[
+        {
+          "productId": 1,
+          "productName": "TP-LINK",
+          "category": " Wi-Fi smart plug",
+          "specs": "TP Link has released a smart plug that works with Amazon Echo. Smart plugs are a great way to get into making your home smarter. Combine that with voice control and your have a pretty cool experience.",
+          "stock": 546,
+          "cost": 9384,
+          "image":"img\\tp_link_.jpg"
+
+        },
+        {
+          "productId": 2,
+          "productName": "Prodigio",
+          "category": "Connected Nespresso machines",
+          "specs": "We are huge Nespresso fans in the iotlist office. So when we heard there was a connected version of the device we ran out and purchased one for the office. It is so easy to setup schedule brewing and know when its time to order more capsules. Also the automatic capsule ejection is a great feature.",
+          "stock": 332,
+          "cost": 12839,
+          "image":"img\\123_1_.jpg"
+
+        },
+        {
+          "productId": 3,
+          "productName": "August",
+          "category": "Smart Lock",
+          "specs": "August Smart Lock has been mentioned as the next great smart home product. With installation taking under 10 mins it is easy to anyone to setup. If you are looking for a easy way to control access to your home it is a great solution. We have been testing the lock for the past month and it works pretty well. One of the best features is Everlock which automatically locks your door anytime you leave based on your phones geo location. We find this to be a great experience for those who are always running late to meetings and forget to lock the door.",
+          "stock": 523,
+          "cost": 5671,
+          "image":"img\\August.png"
+        },
+        {
+          "productId": 4,
+          "productName": "August",
+          "category": "Smart keypad",
+          "specs": "August continues to redefine access to the home. Their latest product is a smart keypad that works with the August lock. This is a great addition to the product line up as it makes the smart lock useable by everyone in the family without forcing them to have a smartphone and the August app. Combine the lock, doorbell cam and smart keypad and you have yourself one awesome door.",
+          "stock": 1360,
+          "cost": 4324,
+          "image":"img\\August_Smart.jpg"
+        },
+        {
+          "productId": 5,
+          "productName": "Apple Tv",
+          "category": "Apps & Voice Control",
+          "specs": "Apple has released the latest version of Apple TV. Our team has been huge fans of Apple TV since it launched. The latest version brings the long anticipated arrival of a true app store for connected TVs and voice control via Siri. This should have a huge impact on what it means to have a connected screen in your home. Content and gaming are the low hanging fruit for the app store but we are excited to see the ideas that leverage the large screen in ways we would never have never imagined. For instance...is there a better experience for video meetings when you can leverage the connected screen?",
+          "stock": 1412,
+          "cost": 5900,
+          "image":"img\\Apple.jpeg"
+        },
+        {
+          "productId": 6,
+          "productName": "Belkin Wemo",
+          "category": "Insight Switch",
+          "specs": "WeMo updates it connected family with the Insight Switch. The switch allows you to control anything you plug into it from your smart devices but adds the ability to monitor the energy usage as well. You can even have the device turn off when it reaches a defined level of power usage or energy cost. This is a good solution for those just starting to build their smart home.",
+          "stock": 81,
+          "cost": 3292,
+          "image":"img\\Belkin_Wemo.jpg"
+        },
+        {
+          "productId": 7,
+          "productName": "Canary",
+          "category": "Smart Home Security Device",
+          "specs": "Security is a main drivers for consumers to start creating their smart home. Providing a simple and easy way to add security to your home is what Canary wants to offer to consumers. The HD video camera has safety sensors that track everything from motion, temperature and air quality to vibration and sound. You can use these items to create notifications and take a live look into your home when one is received on your smart device.",
+          "stock": 1141,
+          "cost": 15329,
+          "image":"img\\Canary.jpg"
+        },
+        {
+          "productId": 8,
+          "productName": "Google ChromeCast",
+          "category": "Second Generation",
+          "specs": "Chromecast has always been the easiest and most cost efficient way to make any TV smart and cast your favorite videos to the big screen. The new Chromecast delivers on that promise and brings support to a few new apps like Sling TV.",
+          "stock": 19,
+          "cost": 6092,
+          "image":"img\\chrome.jpg"
+        },
+        {
+          "productId": 9,
+          "productName": "Chamberlain",
+          "category": "Garage connectivity Kit",
+          "specs": "Imagine receiving an alert if you left your garage open. Or being able to turn on your lights before you got home. Chamberlain MyQ Technology does this by letting you monitor, open and close your garage door or gate and control your home lighting from anywhere - all from your smartphone.",
+          "stock": 1270,
+          "cost": 1760,
+          "image":"img\\chambarlain.jpg"
+        },
+        {
+          "productId": 10,
+          "productName": "Cinder",
+          "category": "Sensing Cooker",
+          "specs": "The kitchen is already a environment for specialized devices that solve a very specific problem of the chef. Adding connectivity to these type of products is a logical step. Cinder is a great example of how the kitchen is becoming more connected. Also being able to make the perfect steak is not bad at all. If you are interested in this space you should check out Orange Chef as well.",
+          "stock": 1680,
+          "cost": 2306,
+          "image":"img\\Cinder.jpg"
+        },
+        {
+          "productId": 11,
+          "productName": "Click And Grow",
+          "category": "Smart Herb Garden",
+          "specs": "Click & Grow is a simple way to bring fresh herbs into your life. Its a great option for renters who want to bring greenery into their home and do not have a green thumb. We tested the product and liked the ease of use and the addition of fresh herbs to our office mojitos.",
+          "stock": 992,
+          "cost": 14653,
+          "image":"img\\Click_and_grow.png"
+        },
+        {
+          "productId": 12,
+          "productName": "Deeper",
+          "category": "Smart portable fish finder",
+          "specs": "We are always excited to see products that are built for a passionate community. Deeper is all about making your fishing experience better by narrowing down where to find fish and enjoy the day at the lake. Check out the great review video.",
+          "stock": 741,
+          "cost": 19482,
+          "image":"img\\Deeper.jpg"
+        },
+        {
+          "productId": 13,
+          "productName": "Denon",
+          "category": "HEOS wireless speaker",
+          "specs": "Denon is known for creating great speakers. The HEOS is focused on the emerging wireless speaker market. Entertainment is becoming a more connected with TV, media streamers and speakers all becoming IP based devices. We played with the HEOS and enjoyed the quality of sound it offers as will as the design. Good device for someone really into music.",
+          "stock": 34,
+          "cost": 11483,
+          "image":"img\\Denon.jpg"
+        },
+        {
+          "productId": 14,
+          "productName": "Eve",
+          "category": "Homekit wireless indoor sensor",
+          "specs": "Homekit products which allow you to control you home via Siri are starting to hit the market and Eve is one of the first you can buy. It is a indoor sensor that measures indoor air quality, temperature, and humidity. Expect a lot more devices to be coming soon but Eve is a solid product and good starting place if you are excited about Homekit.",
+          "stock": 207,
+          "cost": 18887,
+          "image":"img\\Eve.jpg"
+        },
+        {
+          "productId": 15,
+          "productName": "FITBIT Surge",
+          "category": "Fitness tracker",
+          "specs": "With all the hype around smartwatches we thought it would be good to take another look at Fitbit Surge which does a great job of combining fitness tracking and smartwatch. We used it for about a week and it was great for all our fitness needs. Because of the GPS you do not need to take your phone when you run which is a great feature. It is very limited as a smartwatch. It does the basics but there are no real apps like a Pebble and upcoming Apple watch. Overall it is a one of the best activity trackers on the market but it is just an ok smartwatch.",
+          "stock": 1088,
+          "cost": 14267,
+          "image":"img\\Fitbit_Surge.jpg"
+        },
+        {
+          "productId": 16,
+          "productName": "Footbot",
+          "category": "Indoor air quality monitor",
+          "specs": "Foobot monitors the air quality of your home or office and sends alerts via the smartphone app. It is an interesting device for those who have allergies or want to understand more about the air quality in the environments they live.",
+          "stock": 1476,
+          "cost": 19106,
+          "image":"img\\foobot_.jpg"
+        },
+        {
+          "productId": 17,
+          "productName": "GE Link",
+          "category": "Lightining starter kit",
+          "specs": "GE is doing a great job driving down prices on entry level connected home devices. The GE Link starter kit is a great example. For under $50 a consumer can have a connected lighting setup with no much work at all. Check out this great review on the product.",
+          "stock": 572,
+          "cost": 13142,
+          "image":"img\\GE_Link.jpg"
+        },
+        {
+          "productId": 18,
+          "productName": "Keen Home",
+          "category": "Smart vent",
+          "specs": "Keen Home has a interesting take on climate control and energy management with it smart vent product. This could be a great solution for lager homes or retro fitting older homes. The smart vent regulates a rooms temperature by creating a room-zoned system that proactively balances your home’s temperature.",
+          "stock": 1676,
+          "cost": 14770,
+          "image":"img\\Keen_Home.jpg"
+        },
+        {
+          "productId": 19,
+          "productName": "Kinsa",
+          "category": "Smart thermometer",
+          "specs": "The Kinsa is a cool product that reinvents the way we think about taking a patients temperature at home. It is simple to setup and makes it easy to track the health of a love one who has the flu and help them get better. It is also a great product for a new parents.",
+          "stock": 1856,
+          "cost": 9690,
+          "image":"img\\Kinsa.jpg"
+        },
+        {
+          "productId": 20,
+          "productName": "Lockitron Bolt",
+          "category": "Smart Lock",
+          "specs": "Bolt is the latest smart lock from Lockitron. The design has been updated and they have also introduced the Lockitron bridge which will allow you to control your lock from anywhere in the world. Overall the smart lock market is starting to really heat up and we are seeing more Bluetooth options come to the market.",
+          "stock": 1394,
+          "cost": 10899,
+          "image":"img\\Lockitron.jpg"
+        },
+        {
+          "productId": 21,
+          "productName": "Logitech Harmony Elite",
+          "category": "Logitech Harmony EliteHome Controller",
+          "specs": "Logitech has refreshed it Harmony product with the launch of Elite. The device has a new design that is slimmer and sports a nice size screen. If you are familiar with the Harmony you know it controls a ton of A/V devices but also control smart home products like Nest, Hue and August just to name a few. We hope to get a test unit soon to check it out.",
+          "stock": 1072,
+          "cost": 6533,
+          "image":"img\\Logitech_Harmony_Elite.jpg"
+
+        },
+        {
+          "productId": 22,
+          "productName": "MUZO Cobblestone",
+          "category": "Wireless music receiver",
+          "specs": "Creating a better music experience by leveraging connectivity is a great value proposition in the smart home. Sonos did a great job in building and delivering a great product this serves this purpose. MUZO is a simple way to control music in your home.",
+          "stock": 1781,
+          "cost": 11946,
+          "image":"img\\Muzo_cobblestone.jpg"
+        },
+        {
+          "productId": 23,
+          "productName": "OnHub",
+          "category": "Connected home server",
+          "specs": "Google and TP Link released OnHub the router built for the connected home. We have been testing the router this week and we like what we see so far. It is super easy to setup and gives you a glimpse into what is going on with your network from its mobile app. Currently the 802.15.4 and BLE radios are not live so we were not able to test out the connected home features we believe it will support in the future.",
+          "stock": 42,
+          "cost": 9641,
+          "image":"img\\OnHub.jpg"
+        },
+        {
+          "productId": 24,
+          "productName": "Oort",
+          "category": "Smart bluetooth bulb",
+          "specs": "Smart lighting is gaining momentum everyday. It is a easy thing to setup and the cost is fairly low as a entry point into the smart home. OORT bluetooth bulb is a great buy if you just want to try out smart lighting in your home.",
+          "stock": 1757,
+          "cost": 570,
+          "image":"img\\Oort.jpg"
+        },
+        {
+          "productId": 25,
+          "productName": "Osram Lightify",
+          "category": "Smart connected lighting",
+          "specs": "OSRAM Lightify is another great option for those looking to test out connected lighting in the home. Very similar to Hue, Lightify comes with a hub that you plug into the wall which allows you to control the lights via your smart device. The system is very flexible and allows you to start with a single blub and add other connected lighting as you see fit.",
+          "stock": 174,
+          "cost": 11688,
+          "image":"img\\Osram_Lightify.jpg"
+        },
+        {
+          "productId": 26,
+          "productName": "Roku 3",
+          "category": "Streaming media player",
+          "specs": "The team has been testing the new Sling TV service (awesome by the way) and it gave us a chance to develop a great appreciation for the Roku 3 streaming media player. It has just about everything a novice cord cutter needs to replace their cable tv subscription. Netflix, Amazon Prime, Hulu and Sling TV. The interface is very easy to navigate and the voice control is a very cool feature. If you are looking for a solid cable replacement Roku 3 could be your answer.",
+          "stock": 744,
+          "cost": 7675,
+          "image":"img\\Roku_3.jpg"
+        },
+        {
+          "productId": 27,
+          "productName": "Samsing Gear VR",
+          "category": "Virtual reality headset",
+          "specs": "It took us a while to check out the Samsung Gear VR and it a fun device to play around with. It is still early days but you can see why VR has such a buzz. We like the feel of playing games and watching movies so far. But we can not wait till someone builds the app that showcases the full capability of these type of devices.",
+          "stock": 1072,
+          "cost": 7172,
+          "image":"img\\sam_.jpg"
+        },
+        {
+          "productId": 28,
+          "productName": "Samsung galaxy view",
+          "category": "smoke detectors",
+          "specs": "Samsung Galaxy View is a connected screen targeted at cord cutters and what TV will be in the future. Our team saw this device and feel in love as it hints towards what could be for those of us who do not have cable but want a screen built for our needs. The Galaxy View is the first device we have seen focused on rethinking the TV screen. We are very excited to try it out.",
+          "stock": 1442,
+          "cost": 2538,
+          "image":"img\\Samsung_Galaxy_View.jpg"
+        },
+        {
+          "productId": 29,
+          "productName": "SwitchMate",
+          "category": "Smart lighting made simple",
+          "specs": "Switchmate provides a easy way for you to convert your home into a smart lighting oasis. Switchmate snaps over your standard light switch making it a smart light in seconds. This is the easy installation we have seen for a DYI smart lighting product in the market. We met with the team from Switchmate and review the product a few weeks back. It worked as advertised. If you are building a smart home you understand the issues with trying to keep your lights in smart state while allowing your family to still use the light switch. Switchmate seems to be a good compromise.",
+          "stock": 311,
+          "cost": 12371,
+          "image":"img\\SwitchMate.jpg"
+        },
+        {
+          "productId": 30,
+          "productName": "Tagg plus",
+          "category": "Pet tracker collar",
+          "specs": "Peace of mind is a great trait of connected devices. Tagg delivers on this trait for all pet owners. Pretty easy setup and add features such as activity tracking makes great use of GPS.",
+          "stock": 688,
+          "cost": 6593,
+          "image":"img\\Tagplus.jpg"
+        },
+        {
+          "productId": 31,
+          "productName": "Triby",
+          "category": "Connected speaker for the kitchen",
+          "specs": "Triby is a multi purpose speaker for the smart kitchen. Music, hands free calling, intercom and virtual notes are the main features of the device. We are excited to get our hands on the device to test it out over the next few weeks.",
+          "stock": 1675,
+          "cost": 2881,
+          "image":"img\\Triby.jpg"
+        },
+        {
+          "productId": 32,
+          "productName": "Valta",
+          "category": "Simple home energy management",
+          "specs": "Saving money on energy efficiency is one of the great values of setting up a smart home. Nest is doing a great job in showcasing the money you can save by understanding how you use energy. Valta is a great showcase of an easy way to add everyday devices to your smart home and manage energy savings.",
+          "stock": 31,
+          "cost": 5577,
+          "image":"img\\Valta.jpg"
+        },
+        {
+          "productId": 33,
+          "productName": "Misfit Wearables",
+          "category": "Shine 2",
+          "specs": "Shine 2 is an advanced, premium activity and sleep monitor made by the team at Misfit. It is a great device for someone who is motivated to meet their health and fitness goals but does not care to wear a smart watch. One thing that is very cool about Shine 2 is that you can control smart home devices like Bolt connected lights using the device.",
+          "stock": 1944,
+          "cost": 3640,
+          "image":"img\\watch.jpg"
+        },
+        {
+          "productId": 34,
+          "productName": "Withings",
+          "category": "Wireless blood pressure monitor",
+          "specs": "Products like Withings wireless blood pressure monitor always interest our team because of the potential impact they may have on making our lives better. As we move into a more DYI health assessment world these products will help provide us with realtime feedback on our bodies and vitals like never before. Withings does a good job of making the process simple and easy for checking blood pressure and review the history of those results. It is also great that you can share the results with your doctors as well.",
+          "stock": 621,
+          "cost": 14460,
+          "image":"img\\Withings.jpg"
+        },
+        {
+          "productId": 35,
+          "productName": "Sentri",
+          "category": "Home monitoring and automation",
+          "specs": "Sentri is a complete home monitoring and automation solution in one beautiful display. Sentri adapts to your home and delivers personalized alerts along with a live HD video feed straight to your smartphone, no matter where you are.",
+          "stock": 782,
+          "cost": 12890,
+          "image":"img\\monitor.jpg"
+        },
+        {
+          "productId": 36,
+          "productName": "nostrud",
+          "category": "smoke detectors",
+          "specs": "Sunt ipsum sit aute veniam irure.",
+          "stock": 199,
+          "cost": 15652,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 37,
+          "productName": "et",
+          "category": "smoke detectors",
+          "specs": "Aliquip culpa aliquip ullamco eiusmod cillum ullamco dolor in tempor proident veniam quis pariatur.",
+          "stock": 244,
+          "cost": 4371,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 38,
+          "productName": "et",
+          "category": "baby monitor",
+          "specs": "Do et tempor nulla esse anim.",
+          "stock": 709,
+          "cost": 11291,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 39,
+          "productName": "quis",
+          "category": "smoke detectors",
+          "specs": "Ea consequat ad et duis aliqua excepteur pariatur dolore dolore anim irure non ad.",
+          "stock": 1017,
+          "cost": 19989,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 40,
+          "productName": "consectetur",
+          "category": "home lock",
+          "specs": "Dolor et irure tempor Lorem adipisicing.",
+          "stock": 91,
+          "cost": 19323,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 41,
+          "productName": "proident",
+          "category": "electric home appliances",
+          "specs": "Quis ad minim irure velit minim cillum minim adipisicing ut mollit Lorem laboris veniam.",
+          "stock": 320,
+          "cost": 4520,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 42,
+          "productName": "sint",
+          "category": "music system",
+          "specs": "Deserunt reprehenderit quis consectetur aute esse magna aliqua.",
+          "stock": 445,
+          "cost": 14079,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 43,
+          "productName": "anim",
+          "category": "printers",
+          "specs": "Commodo eiusmod exercitation tempor esse proident sunt in elit dolore irure sint esse.",
+          "stock": 1229,
+          "cost": 1732,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 44,
+          "productName": "et",
+          "category": "printers",
+          "specs": "Mollit mollit dolor veniam ad ut sint nulla dolore.",
+          "stock": 1104,
+          "cost": 13953,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 45,
+          "productName": "eiusmod",
+          "category": "smoke detectors",
+          "specs": "Cupidatat anim deserunt culpa aliquip incididunt enim labore fugiat pariatur nisi.",
+          "stock": 1014,
+          "cost": 1627,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 46,
+          "productName": "Lorem",
+          "category": "music system",
+          "specs": "Laborum mollit cillum commodo do anim mollit culpa.",
+          "stock": 634,
+          "cost": 1041,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 47,
+          "productName": "nulla",
+          "category": "smart watch",
+          "specs": "Esse duis aliqua est occaecat voluptate reprehenderit ea officia ad commodo.",
+          "stock": 218,
+          "cost": 17650,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 48,
+          "productName": "enim",
+          "category": "printers",
+          "specs": "Do veniam in tempor ex ipsum sit cupidatat.",
+          "stock": 442,
+          "cost": 12311,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 49,
+          "productName": "proident",
+          "category": "home lock",
+          "specs": "Ullamco dolor voluptate deserunt voluptate irure.",
+          "stock": 1098,
+          "cost": 13993,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 50,
+          "productName": "enim",
+          "category": "smoke detectors",
+          "specs": "Eu incididunt officia velit aliquip officia consequat enim nostrud.",
+          "stock": 274,
+          "cost": 8267,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 51,
+          "productName": "eiusmod",
+          "category": "home lock",
+          "specs": "Deserunt ea pariatur dolore sunt.",
+          "stock": 1026,
+          "cost": 17586,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 52,
+          "productName": "nisi",
+          "category": "baby monitor",
+          "specs": "Occaecat sunt deserunt proident labore velit amet.",
+          "stock": 1660,
+          "cost": 4498,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 53,
+          "productName": "sint",
+          "category": "electric home appliances",
+          "specs": "Anim velit eu sit deserunt tempor.",
+          "stock": 1939,
+          "cost": 3255,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 54,
+          "productName": "pariatur",
+          "category": "music system",
+          "specs": "Excepteur irure et ullamco irure ipsum exercitation duis ut laboris.",
+          "stock": 470,
+          "cost": 11494,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 55,
+          "productName": "ad",
+          "category": "electric home appliances",
+          "specs": "Ex veniam voluptate exercitation irure officia velit officia.",
+          "stock": 1804,
+          "cost": 14795,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 56,
+          "productName": "pariatur",
+          "category": "printers",
+          "specs": "Reprehenderit aliqua anim dolore nostrud veniam ut ad ad ex pariatur fugiat ad pariatur.",
+          "stock": 1248,
+          "cost": 18121,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 57,
+          "productName": "pariatur",
+          "category": "printers",
+          "specs": "Nulla consectetur ipsum ad eiusmod occaecat magna eiusmod sunt elit reprehenderit.",
+          "stock": 388,
+          "cost": 10683,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 58,
+          "productName": "nisi",
+          "category": "baby monitor",
+          "specs": "Id ipsum adipisicing tempor occaecat pariatur sit proident ullamco ea reprehenderit amet pariatur id consectetur.",
+          "stock": 219,
+          "cost": 15098,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 59,
+          "productName": "et",
+          "category": "baby monitor",
+          "specs": "Laboris ea veniam exercitation esse eiusmod non est id et velit.",
+          "stock": 1793,
+          "cost": 15637,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 60,
+          "productName": "non",
+          "category": "smoke detectors",
+          "specs": "Velit aliqua ut irure duis mollit nisi aute minim velit cupidatat incididunt cillum excepteur.",
+          "stock": 923,
+          "cost": 5940,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 61,
+          "productName": "aliquip",
+          "category": "smart watch",
+          "specs": "Proident id eu enim proident non nisi laboris eiusmod ea cupidatat officia.",
+          "stock": 1472,
+          "cost": 3903,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 62,
+          "productName": "eiusmod",
+          "category": "home lock",
+          "specs": "Qui deserunt ut et eu consectetur officia.",
+          "stock": 1589,
+          "cost": 15806,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 63,
+          "productName": "adipisicing",
+          "category": "electric home appliances",
+          "specs": "Sint ex veniam in reprehenderit aliquip eu amet cupidatat id mollit ipsum.",
+          "stock": 272,
+          "cost": 1825,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 64,
+          "productName": "culpa",
+          "category": "printers",
+          "specs": "Culpa non ad pariatur mollit proident consectetur ex non consectetur.",
+          "stock": 1106,
+          "cost": 8138,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 65,
+          "productName": "eu",
+          "category": "smart watch",
+          "specs": "Consectetur voluptate sit dolor commodo sit fugiat laborum.",
+          "stock": 884,
+          "cost": 5719,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 66,
+          "productName": "velit",
+          "category": "baby monitor",
+          "specs": "Pariatur amet nulla labore ex ex ut labore ut.",
+          "stock": 1339,
+          "cost": 4687,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 67,
+          "productName": "cupidatat",
+          "category": "smoke detectors",
+          "specs": "Cillum eiusmod culpa aute ullamco qui.",
+          "stock": 1519,
+          "cost": 18999,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 68,
+          "productName": "id",
+          "category": "home lock",
+          "specs": "Deserunt esse labore irure excepteur id in ullamco elit pariatur.",
+          "stock": 299,
+          "cost": 3884,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 69,
+          "productName": "fugiat",
+          "category": "printers",
+          "specs": "Amet in tempor laborum ut Lorem laborum nostrud sunt.",
+          "stock": 1068,
+          "cost": 1190,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 70,
+          "productName": "incididunt",
+          "category": "smoke detectors",
+          "specs": "Commodo consequat dolore ad exercitation do ipsum aute veniam.",
+          "stock": 1086,
+          "cost": 14719,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 71,
+          "productName": "laborum",
+          "category": "smart watch",
+          "specs": "Dolor labore sit fugiat ea anim Lorem non proident minim non.",
+          "stock": 1941,
+          "cost": 17249,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 72,
+          "productName": "labore",
+          "category": "baby monitor",
+          "specs": "Nulla exercitation enim proident nulla do sint eu.",
+          "stock": 501,
+          "cost": 10277,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 73,
+          "productName": "proident",
+          "category": "home lock",
+          "specs": "Exercitation culpa ex Lorem dolore laborum eu pariatur dolor voluptate.",
+          "stock": 437,
+          "cost": 18370,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 74,
+          "productName": "reprehenderit",
+          "category": "baby monitor",
+          "specs": "Veniam officia enim ad dolore enim laboris reprehenderit dolore tempor elit do Lorem do anim.",
+          "stock": 1908,
+          "cost": 16890,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 75,
+          "productName": "id",
+          "category": "printers",
+          "specs": "Eiusmod ut quis incididunt elit ipsum et adipisicing non adipisicing.",
+          "stock": 254,
+          "cost": 9812,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 76,
+          "productName": "irure",
+          "category": "smart watch",
+          "specs": "Occaecat id sit id voluptate dolore occaecat ea qui nostrud nisi commodo.",
+          "stock": 463,
+          "cost": 6317,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 77,
+          "productName": "id",
+          "category": "music system",
+          "specs": "Exercitation sit amet anim Lorem occaecat incididunt est reprehenderit anim ad nulla tempor.",
+          "stock": 236,
+          "cost": 3030,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 78,
+          "productName": "qui",
+          "category": "smoke detectors",
+          "specs": "Sint duis ea pariatur veniam occaecat consectetur laborum culpa ad esse incididunt.",
+          "stock": 1373,
+          "cost": 3908,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 79,
+          "productName": "veniam",
+          "category": "music system",
+          "specs": "Tempor eiusmod proident incididunt mollit cillum.",
+          "stock": 85,
+          "cost": 8857,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 80,
+          "productName": "est",
+          "category": "smart watch",
+          "specs": "Dolore aute elit consectetur laborum consequat consectetur mollit exercitation deserunt reprehenderit excepteur.",
+          "stock": 489,
+          "cost": 1599,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 81,
+          "productName": "anim",
+          "category": "printers",
+          "specs": "Ipsum adipisicing cupidatat proident laboris proident non ea ut cupidatat tempor duis tempor.",
+          "stock": 1918,
+          "cost": 4671,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 82,
+          "productName": "ex",
+          "category": "printers",
+          "specs": "Culpa qui sint occaecat et ipsum exercitation adipisicing officia sunt incididunt eiusmod elit labore minim.",
+          "stock": 1124,
+          "cost": 18673,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 83,
+          "productName": "culpa",
+          "category": "baby monitor",
+          "specs": "Tempor magna velit anim anim cupidatat veniam sunt enim aliqua officia qui.",
+          "stock": 1104,
+          "cost": 5740,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 84,
+          "productName": "laboris",
+          "category": "baby monitor",
+          "specs": "Voluptate ex ea deserunt aliqua ut sit reprehenderit voluptate nisi cillum non elit.",
+          "stock": 782,
+          "cost": 18440,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 85,
+          "productName": "laborum",
+          "category": "printers",
+          "specs": "Ad est Lorem veniam aliqua qui nostrud culpa cillum in minim exercitation magna.",
+          "stock": 1836,
+          "cost": 11694,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 86,
+          "productName": "voluptate",
+          "category": "smoke detectors",
+          "specs": "Velit esse sint ipsum mollit consectetur reprehenderit deserunt tempor pariatur eu aute quis aute.",
+          "stock": 92,
+          "cost": 16570,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 87,
+          "productName": "esse",
+          "category": "printers",
+          "specs": "Cillum duis deserunt id eiusmod dolore cillum ad.",
+          "stock": 35,
+          "cost": 19973,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 88,
+          "productName": "cupidatat",
+          "category": "smoke detectors",
+          "specs": "Eu officia nisi proident deserunt nulla labore occaecat ut ipsum ut aliquip velit mollit.",
+          "stock": 976,
+          "cost": 2316,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 89,
+          "productName": "ut",
+          "category": "music system",
+          "specs": "Aliquip non deserunt consequat ipsum officia.",
+          "stock": 450,
+          "cost": 16229,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 90,
+          "productName": "consectetur",
+          "category": "electric home appliances",
+          "specs": "Culpa cupidatat magna in cupidatat reprehenderit.",
+          "stock": 919,
+          "cost": 12983,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 91,
+          "productName": "enim",
+          "category": "home lock",
+          "specs": "Ipsum pariatur id qui laborum.",
+          "stock": 105,
+          "cost": 12071,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 92,
+          "productName": "amet",
+          "category": "electric home appliances",
+          "specs": "Aliquip excepteur velit consequat minim mollit qui non aliqua fugiat non quis ut magna excepteur.",
+          "stock": 259,
+          "cost": 7258,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 93,
+          "productName": "occaecat",
+          "category": "electric home appliances",
+          "specs": "Culpa elit mollit veniam mollit fugiat do irure consequat dolore labore id veniam.",
+          "stock": 650,
+          "cost": 19623,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 94,
+          "productName": "enim",
+          "category": "music system",
+          "specs": "Officia incididunt excepteur et aliquip nulla sunt occaecat voluptate pariatur ad ea incididunt.",
+          "stock": 1374,
+          "cost": 12870,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 95,
+          "productName": "velit",
+          "category": "smoke detectors",
+          "specs": "Elit ullamco nostrud fugiat adipisicing.",
+          "stock": 1544,
+          "cost": 18040,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 96,
+          "productName": "dolor",
+          "category": "printers",
+          "specs": "Anim tempor ea reprehenderit excepteur pariatur voluptate ullamco culpa aliqua aliquip enim duis officia exercitation.",
+          "stock": 293,
+          "cost": 11031,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 97,
+          "productName": "elit",
+          "category": "baby monitor",
+          "specs": "Lorem nulla quis do commodo qui.",
+          "stock": 774,
+          "cost": 6370,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 98,
+          "productName": "aute",
+          "category": "home lock",
+          "specs": "Dolor dolor elit anim non officia laborum irure.",
+          "stock": 1464,
+          "cost": 17325,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 99,
+          "productName": "do",
+          "category": "baby monitor",
+          "specs": "Voluptate et sunt nisi aliqua duis eiusmod amet est anim reprehenderit labore.",
+          "stock": 457,
+          "cost": 6073,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 100,
+          "productName": "amet",
+          "category": "smoke detectors",
+          "specs": "Cillum in exercitation aliquip est amet reprehenderit.",
+          "stock": 1570,
+          "cost": 9358,
+          "image":"img\\tp_l.jpg"
+        }
+      ]
+    }
+=======
+{
+
+      "productList":[
+        {
+          "productId": 1,
+          "productName": "TP-LINK",
+          "category": " Wi-Fi smart plug",
+          "specs": "TP Link has released a smart plug that works with Amazon Echo. Smart plugs are a great way to get into making your home smarter. Combine that with voice control and your have a pretty cool experience.",
+          "stock": 546,
+          "cost": 9384,
+          "image":"img\\tp_link_.jpg"
+
+        },
+        {
+          "productId": 2,
+          "productName": "Prodigio",
+          "category": "Connected Nespresso machines",
+          "specs": "We are huge Nespresso fans in the iotlist office. So when we heard there was a connected version of the device we ran out and purchased one for the office. It is so easy to setup schedule brewing and know when its time to order more capsules. Also the automatic capsule ejection is a great feature.",
+          "stock": 332,
+          "cost": 12839,
+          "image":"img\\123_1_.jpg"
+
+        },
+        {
+          "productId": 3,
+          "productName": "August",
+          "category": "Smart Lock",
+          "specs": "August Smart Lock has been mentioned as the next great smart home product. With installation taking under 10 mins it is easy to anyone to setup. If you are looking for a easy way to control access to your home it is a great solution. We have been testing the lock for the past month and it works pretty well. One of the best features is Everlock which automatically locks your door anytime you leave based on your phones geo location. We find this to be a great experience for those who are always running late to meetings and forget to lock the door.",
+          "stock": 523,
+          "cost": 5671,
+          "image":"img\\August.png"
+        },
+        {
+          "productId": 4,
+          "productName": "August",
+          "category": "Smart keypad",
+          "specs": "August continues to redefine access to the home. Their latest product is a smart keypad that works with the August lock. This is a great addition to the product line up as it makes the smart lock useable by everyone in the family without forcing them to have a smartphone and the August app. Combine the lock, doorbell cam and smart keypad and you have yourself one awesome door.",
+          "stock": 1360,
+          "cost": 4324,
+          "image":"img\\August_Smart.jpg"
+        },
+        {
+          "productId": 5,
+          "productName": "Apple Tv",
+          "category": "Apps & Voice Control",
+          "specs": "Apple has released the latest version of Apple TV. Our team has been huge fans of Apple TV since it launched. The latest version brings the long anticipated arrival of a true app store for connected TVs and voice control via Siri. This should have a huge impact on what it means to have a connected screen in your home. Content and gaming are the low hanging fruit for the app store but we are excited to see the ideas that leverage the large screen in ways we would never have never imagined. For instance...is there a better experience for video meetings when you can leverage the connected screen?",
+          "stock": 1412,
+          "cost": 5900,
+          "image":"img\\Apple.jpeg"
+        },
+        {
+          "productId": 6,
+          "productName": "Belkin Wemo",
+          "category": "Insight Switch",
+          "specs": "WeMo updates it connected family with the Insight Switch. The switch allows you to control anything you plug into it from your smart devices but adds the ability to monitor the energy usage as well. You can even have the device turn off when it reaches a defined level of power usage or energy cost. This is a good solution for those just starting to build their smart home.",
+          "stock": 81,
+          "cost": 3292,
+          "image":"img\\Belkin_Wemo.jpg"
+        },
+        {
+          "productId": 7,
+          "productName": "Canary",
+          "category": "Smart Home Security Device",
+          "specs": "Security is a main drivers for consumers to start creating their smart home. Providing a simple and easy way to add security to your home is what Canary wants to offer to consumers. The HD video camera has safety sensors that track everything from motion, temperature and air quality to vibration and sound. You can use these items to create notifications and take a live look into your home when one is received on your smart device.",
+          "stock": 1141,
+          "cost": 15329,
+          "image":"img\\Canary.jpg"
+        },
+        {
+          "productId": 8,
+          "productName": "Google ChromeCast",
+          "category": "Second Generation",
+          "specs": "Chromecast has always been the easiest and most cost efficient way to make any TV smart and cast your favorite videos to the big screen. The new Chromecast delivers on that promise and brings support to a few new apps like Sling TV.",
+          "stock": 19,
+          "cost": 6092,
+          "image":"img\\chrome.jpg"
+        },
+        {
+          "productId": 9,
+          "productName": "Chamberlain",
+          "category": "Garage connectivity Kit",
+          "specs": "Imagine receiving an alert if you left your garage open. Or being able to turn on your lights before you got home. Chamberlain MyQ Technology does this by letting you monitor, open and close your garage door or gate and control your home lighting from anywhere - all from your smartphone.",
+          "stock": 1270,
+          "cost": 1760,
+          "image":"img\\chambarlain.jpg"
+        },
+        {
+          "productId": 10,
+          "productName": "Cinder",
+          "category": "Sensing Cooker",
+          "specs": "The kitchen is already a environment for specialized devices that solve a very specific problem of the chef. Adding connectivity to these type of products is a logical step. Cinder is a great example of how the kitchen is becoming more connected. Also being able to make the perfect steak is not bad at all. If you are interested in this space you should check out Orange Chef as well.",
+          "stock": 1680,
+          "cost": 2306,
+          "image":"img\\Cinder.jpg"
+        },
+        {
+          "productId": 11,
+          "productName": "Click And Grow",
+          "category": "Smart Herb Garden",
+          "specs": "Click & Grow is a simple way to bring fresh herbs into your life. Its a great option for renters who want to bring greenery into their home and do not have a green thumb. We tested the product and liked the ease of use and the addition of fresh herbs to our office mojitos.",
+          "stock": 992,
+          "cost": 14653,
+          "image":"img\\Click_and_grow.png"
+        },
+        {
+          "productId": 12,
+          "productName": "Deeper",
+          "category": "Smart portable fish finder",
+          "specs": "We are always excited to see products that are built for a passionate community. Deeper is all about making your fishing experience better by narrowing down where to find fish and enjoy the day at the lake. Check out the great review video.",
+          "stock": 741,
+          "cost": 19482,
+          "image":"img\\Deeper.jpg"
+        },
+        {
+          "productId": 13,
+          "productName": "Denon",
+          "category": "HEOS wireless speaker",
+          "specs": "Denon is known for creating great speakers. The HEOS is focused on the emerging wireless speaker market. Entertainment is becoming a more connected with TV, media streamers and speakers all becoming IP based devices. We played with the HEOS and enjoyed the quality of sound it offers as will as the design. Good device for someone really into music.",
+          "stock": 34,
+          "cost": 11483,
+          "image":"img\\Denon.jpg"
+        },
+        {
+          "productId": 14,
+          "productName": "Eve",
+          "category": "Homekit wireless indoor sensor",
+          "specs": "Homekit products which allow you to control you home via Siri are starting to hit the market and Eve is one of the first you can buy. It is a indoor sensor that measures indoor air quality, temperature, and humidity. Expect a lot more devices to be coming soon but Eve is a solid product and good starting place if you are excited about Homekit.",
+          "stock": 207,
+          "cost": 18887,
+          "image":"img\\Eve.jpg"
+        },
+        {
+          "productId": 15,
+          "productName": "FITBIT Surge",
+          "category": "Fitness tracker",
+          "specs": "With all the hype around smartwatches we thought it would be good to take another look at Fitbit Surge which does a great job of combining fitness tracking and smartwatch. We used it for about a week and it was great for all our fitness needs. Because of the GPS you do not need to take your phone when you run which is a great feature. It is very limited as a smartwatch. It does the basics but there are no real apps like a Pebble and upcoming Apple watch. Overall it is a one of the best activity trackers on the market but it is just an ok smartwatch.",
+          "stock": 1088,
+          "cost": 14267,
+          "image":"img\\Fitbit_Surge.jpg"
+        },
+        {
+          "productId": 16,
+          "productName": "Footbot",
+          "category": "Indoor air quality monitor",
+          "specs": "Foobot monitors the air quality of your home or office and sends alerts via the smartphone app. It is an interesting device for those who have allergies or want to understand more about the air quality in the environments they live.",
+          "stock": 1476,
+          "cost": 19106,
+          "image":"img\\foobot_.jpg"
+        },
+        {
+          "productId": 17,
+          "productName": "GE Link",
+          "category": "Lightining starter kit",
+          "specs": "GE is doing a great job driving down prices on entry level connected home devices. The GE Link starter kit is a great example. For under $50 a consumer can have a connected lighting setup with no much work at all. Check out this great review on the product.",
+          "stock": 572,
+          "cost": 13142,
+          "image":"img\\GE_Link.jpg"
+        },
+        {
+          "productId": 18,
+          "productName": "Keen Home",
+          "category": "Smart vent",
+          "specs": "Keen Home has a interesting take on climate control and energy management with it smart vent product. This could be a great solution for lager homes or retro fitting older homes. The smart vent regulates a rooms temperature by creating a room-zoned system that proactively balances your home’s temperature.",
+          "stock": 1676,
+          "cost": 14770,
+          "image":"img\\Keen_Home.jpg"
+        },
+        {
+          "productId": 19,
+          "productName": "Kinsa",
+          "category": "Smart thermometer",
+          "specs": "The Kinsa is a cool product that reinvents the way we think about taking a patients temperature at home. It is simple to setup and makes it easy to track the health of a love one who has the flu and help them get better. It is also a great product for a new parents.",
+          "stock": 1856,
+          "cost": 9690,
+          "image":"img\\Kinsa.jpg"
+        },
+        {
+          "productId": 20,
+          "productName": "Lockitron Bolt",
+          "category": "Smart Lock",
+          "specs": "Bolt is the latest smart lock from Lockitron. The design has been updated and they have also introduced the Lockitron bridge which will allow you to control your lock from anywhere in the world. Overall the smart lock market is starting to really heat up and we are seeing more Bluetooth options come to the market.",
+          "stock": 1394,
+          "cost": 10899,
+          "image":"img\\Lockitron.jpg"
+        },
+        {
+          "productId": 21,
+          "productName": "Logitech Harmony Elite",
+          "category": "Logitech Harmony EliteHome Controller",
+          "specs": "Logitech has refreshed it Harmony product with the launch of Elite. The device has a new design that is slimmer and sports a nice size screen. If you are familiar with the Harmony you know it controls a ton of A/V devices but also control smart home products like Nest, Hue and August just to name a few. We hope to get a test unit soon to check it out.",
+          "stock": 1072,
+          "cost": 6533,
+          "image":"img\\Logitech_Harmony_Elite.jpg"
+
+        },
+        {
+          "productId": 22,
+          "productName": "MUZO Cobblestone",
+          "category": "Wireless music receiver",
+          "specs": "Creating a better music experience by leveraging connectivity is a great value proposition in the smart home. Sonos did a great job in building and delivering a great product this serves this purpose. MUZO is a simple way to control music in your home.",
+          "stock": 1781,
+          "cost": 11946,
+          "image":"img\\Muzo_cobblestone.jpg"
+        },
+        {
+          "productId": 23,
+          "productName": "OnHub",
+          "category": "Connected home server",
+          "specs": "Google and TP Link released OnHub the router built for the connected home. We have been testing the router this week and we like what we see so far. It is super easy to setup and gives you a glimpse into what is going on with your network from its mobile app. Currently the 802.15.4 and BLE radios are not live so we were not able to test out the connected home features we believe it will support in the future.",
+          "stock": 42,
+          "cost": 9641,
+          "image":"img\\OnHub.jpg"
+        },
+        {
+          "productId": 24,
+          "productName": "Oort",
+          "category": "Smart bluetooth bulb",
+          "specs": "Smart lighting is gaining momentum everyday. It is a easy thing to setup and the cost is fairly low as a entry point into the smart home. OORT bluetooth bulb is a great buy if you just want to try out smart lighting in your home.",
+          "stock": 1757,
+          "cost": 570,
+          "image":"img\\Oort.jpg"
+        },
+        {
+          "productId": 25,
+          "productName": "Osram Lightify",
+          "category": "Smart connected lighting",
+          "specs": "OSRAM Lightify is another great option for those looking to test out connected lighting in the home. Very similar to Hue, Lightify comes with a hub that you plug into the wall which allows you to control the lights via your smart device. The system is very flexible and allows you to start with a single blub and add other connected lighting as you see fit.",
+          "stock": 174,
+          "cost": 11688,
+          "image":"img\\Osram_Lightify.jpg"
+        },
+        {
+          "productId": 26,
+          "productName": "Roku 3",
+          "category": "Streaming media player",
+          "specs": "The team has been testing the new Sling TV service (awesome by the way) and it gave us a chance to develop a great appreciation for the Roku 3 streaming media player. It has just about everything a novice cord cutter needs to replace their cable tv subscription. Netflix, Amazon Prime, Hulu and Sling TV. The interface is very easy to navigate and the voice control is a very cool feature. If you are looking for a solid cable replacement Roku 3 could be your answer.",
+          "stock": 744,
+          "cost": 7675,
+          "image":"img\\Roku_3.jpg"
+        },
+        {
+          "productId": 27,
+          "productName": "Samsing Gear VR",
+          "category": "Virtual reality headset",
+          "specs": "It took us a while to check out the Samsung Gear VR and it a fun device to play around with. It is still early days but you can see why VR has such a buzz. We like the feel of playing games and watching movies so far. But we can not wait till someone builds the app that showcases the full capability of these type of devices.",
+          "stock": 1072,
+          "cost": 7172,
+          "image":"img\\sam_.jpg"
+        },
+        {
+          "productId": 28,
+          "productName": "Samsung galaxy view",
+          "category": "smoke detectors",
+          "specs": "Samsung Galaxy View is a connected screen targeted at cord cutters and what TV will be in the future. Our team saw this device and feel in love as it hints towards what could be for those of us who do not have cable but want a screen built for our needs. The Galaxy View is the first device we have seen focused on rethinking the TV screen. We are very excited to try it out.",
+          "stock": 1442,
+          "cost": 2538,
+          "image":"img\\Samsung_Galaxy_View.jpg"
+        },
+        {
+          "productId": 29,
+          "productName": "SwitchMate",
+          "category": "Smart lighting made simple",
+          "specs": "Switchmate provides a easy way for you to convert your home into a smart lighting oasis. Switchmate snaps over your standard light switch making it a smart light in seconds. This is the easy installation we have seen for a DYI smart lighting product in the market. We met with the team from Switchmate and review the product a few weeks back. It worked as advertised. If you are building a smart home you understand the issues with trying to keep your lights in smart state while allowing your family to still use the light switch. Switchmate seems to be a good compromise.",
+          "stock": 311,
+          "cost": 12371,
+          "image":"img\\SwitchMate.jpg"
+        },
+        {
+          "productId": 30,
+          "productName": "Tagg plus",
+          "category": "Pet tracker collar",
+          "specs": "Peace of mind is a great trait of connected devices. Tagg delivers on this trait for all pet owners. Pretty easy setup and add features such as activity tracking makes great use of GPS.",
+          "stock": 688,
+          "cost": 6593,
+          "image":"img\\Tagplus.jpg"
+        },
+        {
+          "productId": 31,
+          "productName": "Triby",
+          "category": "Connected speaker for the kitchen",
+          "specs": "Triby is a multi purpose speaker for the smart kitchen. Music, hands free calling, intercom and virtual notes are the main features of the device. We are excited to get our hands on the device to test it out over the next few weeks.",
+          "stock": 1675,
+          "cost": 2881,
+          "image":"img\\Triby.jpg"
+        },
+        {
+          "productId": 32,
+          "productName": "Valta",
+          "category": "Simple home energy management",
+          "specs": "Saving money on energy efficiency is one of the great values of setting up a smart home. Nest is doing a great job in showcasing the money you can save by understanding how you use energy. Valta is a great showcase of an easy way to add everyday devices to your smart home and manage energy savings.",
+          "stock": 31,
+          "cost": 5577,
+          "image":"img\\Valta.jpg"
+        },
+        {
+          "productId": 33,
+          "productName": "Misfit Wearables",
+          "category": "Shine 2",
+          "specs": "Shine 2 is an advanced, premium activity and sleep monitor made by the team at Misfit. It is a great device for someone who is motivated to meet their health and fitness goals but does not care to wear a smart watch. One thing that is very cool about Shine 2 is that you can control smart home devices like Bolt connected lights using the device.",
+          "stock": 1944,
+          "cost": 3640,
+          "image":"img\\watch.jpg"
+        },
+        {
+          "productId": 34,
+          "productName": "Withings",
+          "category": "Wireless blood pressure monitor",
+          "specs": "Products like Withings wireless blood pressure monitor always interest our team because of the potential impact they may have on making our lives better. As we move into a more DYI health assessment world these products will help provide us with realtime feedback on our bodies and vitals like never before. Withings does a good job of making the process simple and easy for checking blood pressure and review the history of those results. It is also great that you can share the results with your doctors as well.",
+          "stock": 621,
+          "cost": 14460,
+          "image":"img\\Withings.jpg"
+        },
+        {
+          "productId": 35,
+          "productName": "Sentri",
+          "category": "Home monitoring and automation",
+          "specs": "Sentri is a complete home monitoring and automation solution in one beautiful display. Sentri adapts to your home and delivers personalized alerts along with a live HD video feed straight to your smartphone, no matter where you are.",
+          "stock": 782,
+          "cost": 12890,
+          "image":"img\\monitor.jpg"
+        },
+        {
+          "productId": 36,
+          "productName": "nostrud",
+          "category": "smoke detectors",
+          "specs": "Sunt ipsum sit aute veniam irure.",
+          "stock": 199,
+          "cost": 15652,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 37,
+          "productName": "et",
+          "category": "smoke detectors",
+          "specs": "Aliquip culpa aliquip ullamco eiusmod cillum ullamco dolor in tempor proident veniam quis pariatur.",
+          "stock": 244,
+          "cost": 4371,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 38,
+          "productName": "et",
+          "category": "baby monitor",
+          "specs": "Do et tempor nulla esse anim.",
+          "stock": 709,
+          "cost": 11291,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 39,
+          "productName": "quis",
+          "category": "smoke detectors",
+          "specs": "Ea consequat ad et duis aliqua excepteur pariatur dolore dolore anim irure non ad.",
+          "stock": 1017,
+          "cost": 19989,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 40,
+          "productName": "consectetur",
+          "category": "home lock",
+          "specs": "Dolor et irure tempor Lorem adipisicing.",
+          "stock": 91,
+          "cost": 19323,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 41,
+          "productName": "proident",
+          "category": "electric home appliances",
+          "specs": "Quis ad minim irure velit minim cillum minim adipisicing ut mollit Lorem laboris veniam.",
+          "stock": 320,
+          "cost": 4520,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 42,
+          "productName": "sint",
+          "category": "music system",
+          "specs": "Deserunt reprehenderit quis consectetur aute esse magna aliqua.",
+          "stock": 445,
+          "cost": 14079,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 43,
+          "productName": "anim",
+          "category": "printers",
+          "specs": "Commodo eiusmod exercitation tempor esse proident sunt in elit dolore irure sint esse.",
+          "stock": 1229,
+          "cost": 1732,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 44,
+          "productName": "et",
+          "category": "printers",
+          "specs": "Mollit mollit dolor veniam ad ut sint nulla dolore.",
+          "stock": 1104,
+          "cost": 13953,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 45,
+          "productName": "eiusmod",
+          "category": "smoke detectors",
+          "specs": "Cupidatat anim deserunt culpa aliquip incididunt enim labore fugiat pariatur nisi.",
+          "stock": 1014,
+          "cost": 1627,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 46,
+          "productName": "Lorem",
+          "category": "music system",
+          "specs": "Laborum mollit cillum commodo do anim mollit culpa.",
+          "stock": 634,
+          "cost": 1041,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 47,
+          "productName": "nulla",
+          "category": "smart watch",
+          "specs": "Esse duis aliqua est occaecat voluptate reprehenderit ea officia ad commodo.",
+          "stock": 218,
+          "cost": 17650,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 48,
+          "productName": "enim",
+          "category": "printers",
+          "specs": "Do veniam in tempor ex ipsum sit cupidatat.",
+          "stock": 442,
+          "cost": 12311,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 49,
+          "productName": "proident",
+          "category": "home lock",
+          "specs": "Ullamco dolor voluptate deserunt voluptate irure.",
+          "stock": 1098,
+          "cost": 13993,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 50,
+          "productName": "enim",
+          "category": "smoke detectors",
+          "specs": "Eu incididunt officia velit aliquip officia consequat enim nostrud.",
+          "stock": 274,
+          "cost": 8267,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 51,
+          "productName": "eiusmod",
+          "category": "home lock",
+          "specs": "Deserunt ea pariatur dolore sunt.",
+          "stock": 1026,
+          "cost": 17586,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 52,
+          "productName": "nisi",
+          "category": "baby monitor",
+          "specs": "Occaecat sunt deserunt proident labore velit amet.",
+          "stock": 1660,
+          "cost": 4498,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 53,
+          "productName": "sint",
+          "category": "electric home appliances",
+          "specs": "Anim velit eu sit deserunt tempor.",
+          "stock": 1939,
+          "cost": 3255,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 54,
+          "productName": "pariatur",
+          "category": "music system",
+          "specs": "Excepteur irure et ullamco irure ipsum exercitation duis ut laboris.",
+          "stock": 470,
+          "cost": 11494,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 55,
+          "productName": "ad",
+          "category": "electric home appliances",
+          "specs": "Ex veniam voluptate exercitation irure officia velit officia.",
+          "stock": 1804,
+          "cost": 14795,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 56,
+          "productName": "pariatur",
+          "category": "printers",
+          "specs": "Reprehenderit aliqua anim dolore nostrud veniam ut ad ad ex pariatur fugiat ad pariatur.",
+          "stock": 1248,
+          "cost": 18121,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 57,
+          "productName": "pariatur",
+          "category": "printers",
+          "specs": "Nulla consectetur ipsum ad eiusmod occaecat magna eiusmod sunt elit reprehenderit.",
+          "stock": 388,
+          "cost": 10683,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 58,
+          "productName": "nisi",
+          "category": "baby monitor",
+          "specs": "Id ipsum adipisicing tempor occaecat pariatur sit proident ullamco ea reprehenderit amet pariatur id consectetur.",
+          "stock": 219,
+          "cost": 15098,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 59,
+          "productName": "et",
+          "category": "baby monitor",
+          "specs": "Laboris ea veniam exercitation esse eiusmod non est id et velit.",
+          "stock": 1793,
+          "cost": 15637,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 60,
+          "productName": "non",
+          "category": "smoke detectors",
+          "specs": "Velit aliqua ut irure duis mollit nisi aute minim velit cupidatat incididunt cillum excepteur.",
+          "stock": 923,
+          "cost": 5940,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 61,
+          "productName": "aliquip",
+          "category": "smart watch",
+          "specs": "Proident id eu enim proident non nisi laboris eiusmod ea cupidatat officia.",
+          "stock": 1472,
+          "cost": 3903,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 62,
+          "productName": "eiusmod",
+          "category": "home lock",
+          "specs": "Qui deserunt ut et eu consectetur officia.",
+          "stock": 1589,
+          "cost": 15806,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 63,
+          "productName": "adipisicing",
+          "category": "electric home appliances",
+          "specs": "Sint ex veniam in reprehenderit aliquip eu amet cupidatat id mollit ipsum.",
+          "stock": 272,
+          "cost": 1825,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 64,
+          "productName": "culpa",
+          "category": "printers",
+          "specs": "Culpa non ad pariatur mollit proident consectetur ex non consectetur.",
+          "stock": 1106,
+          "cost": 8138,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 65,
+          "productName": "eu",
+          "category": "smart watch",
+          "specs": "Consectetur voluptate sit dolor commodo sit fugiat laborum.",
+          "stock": 884,
+          "cost": 5719,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 66,
+          "productName": "velit",
+          "category": "baby monitor",
+          "specs": "Pariatur amet nulla labore ex ex ut labore ut.",
+          "stock": 1339,
+          "cost": 4687,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 67,
+          "productName": "cupidatat",
+          "category": "smoke detectors",
+          "specs": "Cillum eiusmod culpa aute ullamco qui.",
+          "stock": 1519,
+          "cost": 18999,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 68,
+          "productName": "id",
+          "category": "home lock",
+          "specs": "Deserunt esse labore irure excepteur id in ullamco elit pariatur.",
+          "stock": 299,
+          "cost": 3884,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 69,
+          "productName": "fugiat",
+          "category": "printers",
+          "specs": "Amet in tempor laborum ut Lorem laborum nostrud sunt.",
+          "stock": 1068,
+          "cost": 1190,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 70,
+          "productName": "incididunt",
+          "category": "smoke detectors",
+          "specs": "Commodo consequat dolore ad exercitation do ipsum aute veniam.",
+          "stock": 1086,
+          "cost": 14719,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 71,
+          "productName": "laborum",
+          "category": "smart watch",
+          "specs": "Dolor labore sit fugiat ea anim Lorem non proident minim non.",
+          "stock": 1941,
+          "cost": 17249,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 72,
+          "productName": "labore",
+          "category": "baby monitor",
+          "specs": "Nulla exercitation enim proident nulla do sint eu.",
+          "stock": 501,
+          "cost": 10277,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 73,
+          "productName": "proident",
+          "category": "home lock",
+          "specs": "Exercitation culpa ex Lorem dolore laborum eu pariatur dolor voluptate.",
+          "stock": 437,
+          "cost": 18370,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 74,
+          "productName": "reprehenderit",
+          "category": "baby monitor",
+          "specs": "Veniam officia enim ad dolore enim laboris reprehenderit dolore tempor elit do Lorem do anim.",
+          "stock": 1908,
+          "cost": 16890,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 75,
+          "productName": "id",
+          "category": "printers",
+          "specs": "Eiusmod ut quis incididunt elit ipsum et adipisicing non adipisicing.",
+          "stock": 254,
+          "cost": 9812,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 76,
+          "productName": "irure",
+          "category": "smart watch",
+          "specs": "Occaecat id sit id voluptate dolore occaecat ea qui nostrud nisi commodo.",
+          "stock": 463,
+          "cost": 6317,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 77,
+          "productName": "id",
+          "category": "music system",
+          "specs": "Exercitation sit amet anim Lorem occaecat incididunt est reprehenderit anim ad nulla tempor.",
+          "stock": 236,
+          "cost": 3030,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 78,
+          "productName": "qui",
+          "category": "smoke detectors",
+          "specs": "Sint duis ea pariatur veniam occaecat consectetur laborum culpa ad esse incididunt.",
+          "stock": 1373,
+          "cost": 3908,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 79,
+          "productName": "veniam",
+          "category": "music system",
+          "specs": "Tempor eiusmod proident incididunt mollit cillum.",
+          "stock": 85,
+          "cost": 8857,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 80,
+          "productName": "est",
+          "category": "smart watch",
+          "specs": "Dolore aute elit consectetur laborum consequat consectetur mollit exercitation deserunt reprehenderit excepteur.",
+          "stock": 489,
+          "cost": 1599,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 81,
+          "productName": "anim",
+          "category": "printers",
+          "specs": "Ipsum adipisicing cupidatat proident laboris proident non ea ut cupidatat tempor duis tempor.",
+          "stock": 1918,
+          "cost": 4671,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 82,
+          "productName": "ex",
+          "category": "printers",
+          "specs": "Culpa qui sint occaecat et ipsum exercitation adipisicing officia sunt incididunt eiusmod elit labore minim.",
+          "stock": 1124,
+          "cost": 18673,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 83,
+          "productName": "culpa",
+          "category": "baby monitor",
+          "specs": "Tempor magna velit anim anim cupidatat veniam sunt enim aliqua officia qui.",
+          "stock": 1104,
+          "cost": 5740,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 84,
+          "productName": "laboris",
+          "category": "baby monitor",
+          "specs": "Voluptate ex ea deserunt aliqua ut sit reprehenderit voluptate nisi cillum non elit.",
+          "stock": 782,
+          "cost": 18440,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 85,
+          "productName": "laborum",
+          "category": "printers",
+          "specs": "Ad est Lorem veniam aliqua qui nostrud culpa cillum in minim exercitation magna.",
+          "stock": 1836,
+          "cost": 11694,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 86,
+          "productName": "voluptate",
+          "category": "smoke detectors",
+          "specs": "Velit esse sint ipsum mollit consectetur reprehenderit deserunt tempor pariatur eu aute quis aute.",
+          "stock": 92,
+          "cost": 16570,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 87,
+          "productName": "esse",
+          "category": "printers",
+          "specs": "Cillum duis deserunt id eiusmod dolore cillum ad.",
+          "stock": 35,
+          "cost": 19973,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 88,
+          "productName": "cupidatat",
+          "category": "smoke detectors",
+          "specs": "Eu officia nisi proident deserunt nulla labore occaecat ut ipsum ut aliquip velit mollit.",
+          "stock": 976,
+          "cost": 2316,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 89,
+          "productName": "ut",
+          "category": "music system",
+          "specs": "Aliquip non deserunt consequat ipsum officia.",
+          "stock": 450,
+          "cost": 16229,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 90,
+          "productName": "consectetur",
+          "category": "electric home appliances",
+          "specs": "Culpa cupidatat magna in cupidatat reprehenderit.",
+          "stock": 919,
+          "cost": 12983,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 91,
+          "productName": "enim",
+          "category": "home lock",
+          "specs": "Ipsum pariatur id qui laborum.",
+          "stock": 105,
+          "cost": 12071,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 92,
+          "productName": "amet",
+          "category": "electric home appliances",
+          "specs": "Aliquip excepteur velit consequat minim mollit qui non aliqua fugiat non quis ut magna excepteur.",
+          "stock": 259,
+          "cost": 7258,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 93,
+          "productName": "occaecat",
+          "category": "electric home appliances",
+          "specs": "Culpa elit mollit veniam mollit fugiat do irure consequat dolore labore id veniam.",
+          "stock": 650,
+          "cost": 19623,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 94,
+          "productName": "enim",
+          "category": "music system",
+          "specs": "Officia incididunt excepteur et aliquip nulla sunt occaecat voluptate pariatur ad ea incididunt.",
+          "stock": 1374,
+          "cost": 12870,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 95,
+          "productName": "velit",
+          "category": "smoke detectors",
+          "specs": "Elit ullamco nostrud fugiat adipisicing.",
+          "stock": 1544,
+          "cost": 18040,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 96,
+          "productName": "dolor",
+          "category": "printers",
+          "specs": "Anim tempor ea reprehenderit excepteur pariatur voluptate ullamco culpa aliqua aliquip enim duis officia exercitation.",
+          "stock": 293,
+          "cost": 11031,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 97,
+          "productName": "elit",
+          "category": "baby monitor",
+          "specs": "Lorem nulla quis do commodo qui.",
+          "stock": 774,
+          "cost": 6370,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 98,
+          "productName": "aute",
+          "category": "home lock",
+          "specs": "Dolor dolor elit anim non officia laborum irure.",
+          "stock": 1464,
+          "cost": 17325,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 99,
+          "productName": "do",
+          "category": "baby monitor",
+          "specs": "Voluptate et sunt nisi aliqua duis eiusmod amet est anim reprehenderit labore.",
+          "stock": 457,
+          "cost": 6073,
+          "image":"img\\tp_l.jpg"
+        },
+        {
+          "productId": 100,
+          "productName": "amet",
+          "category": "smoke detectors",
+          "specs": "Cillum in exercitation aliquip est amet reprehenderit.",
+          "stock": 1570,
+          "cost": 9358,
+          "image":"img\\tp_l.jpg"
+        }
+      ]
+    }
+>>>>>>> 91a19d8c6cb6a76a4e716366d46e46cb75949bf6

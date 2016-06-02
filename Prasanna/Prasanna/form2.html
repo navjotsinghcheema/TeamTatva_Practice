@@ -1,0 +1,169 @@
+<<<<<<< HEAD
+<html>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+<link rel="stylesheet" href="my.css" media="screen" title="no title" charset="utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+<script>
+var myApp = angular.module("myApp", ['ngMaterial']);
+myApp.controller("myCtrl", ['$scope', '$http', function($scope, $http) {
+  $scope.productObj = {};
+  console.log("controller working");
+	$scope.update = function(){
+    console.log("Product create is: ", $scope.productObj);
+		var res = $http.post('http://localhost:8080/productList', $scope.productObj)
+    .success(function(productObj) {
+    	$scope.message = "Successfully created the product " + productObj.id;
+		});
+		res.error(function() {
+			alert( "failure message: " + JSON.stringify({productObj: productObj}));
+		});
+		// $scope.productId='';
+    // $scope.productName='';
+    // $scope.category='';
+		// $scope.specs='';
+		// $scope.stock='';
+	  // $scope.cost='';
+	};
+}]);
+</script>
+<body>
+  <div ng-app="myApp" ng-controller="myCtrl" layout="column" ng-cloak class="md-inline-form">
+    <md-content md-theme="docs-dark" layout-gt-sm="row" layout-padding>
+      <div>
+        <md-input-container>
+          <p>Product List</p>
+        </md-input-container>
+      </div>
+    </md-content>
+    <md-content layout-padding>
+    <div>
+    <form class="simple-form" ng-submit="update()">
+    <div layout-gt-sm="row">
+    <md-input-container class="md-block" flex-gt-sm="">
+      <label>Name</label>
+      <input ng-model="productObj.productName">
+    </md-input-container>
+    </div>
+    <div>
+      <md-input-container class="md-block" flex-gt-sm="">
+        <label>Category</label>
+        <input ng-model="productObj.category">
+      </md-input-container>
+    </div>
+    <div>
+      <md-input-container class="md-block" flex-gt-sm="">
+        <label>Specs</label>
+        <input ng-model="productObj.specs">
+      </md-input-container >
+    </div>
+    <div>
+      <md-input-container class="md-block" flex-gt-sm="">
+        <label>Stocks</label>
+        <input ng-model="productObj.stock">
+      </md-input-container >
+    </div>
+    <div>
+      <!-- <md-button>save
+        Submit
+      </md-button> -->
+      <input type="button" name="" value="">
+      </div>
+    </form>
+    </div>
+  </md-content>
+  {{productObj}}
+  <pre>productObj  {{productObj | json}}</pre>
+  <pre>productList  {{productList | json}}</pre>
+  <pre>Message {{ message | json}}</pre>
+</div>
+</body>
+</html>
+=======
+<html>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+<link rel="stylesheet" href="my.css" media="screen" title="no title" charset="utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+<script>
+var myApp = angular.module("myApp", ['ngMaterial']);
+myApp.controller("myCtrl", ['$scope', '$http', function($scope, $http) {
+  $scope.productObj = {};
+  console.log("controller working");
+	$scope.update = function(){
+    console.log("Product create is: ", $scope.productObj);
+		var res = $http.post('http://localhost:8080/productList', $scope.productObj)
+    .success(function(productObj) {
+    	$scope.message = "Successfully created the product " + productObj.id;
+		});
+		res.error(function() {
+			alert( "failure message: " + JSON.stringify({productObj: productObj}));
+		});
+		// $scope.productId='';
+    // $scope.productName='';
+    // $scope.category='';
+		// $scope.specs='';
+		// $scope.stock='';
+	  // $scope.cost='';
+	};
+}]);
+</script>
+<body>
+  <div ng-app="myApp" ng-controller="myCtrl" layout="column" ng-cloak class="md-inline-form">
+    <md-content md-theme="docs-dark" layout-gt-sm="row" layout-padding>
+      <div>
+        <md-input-container>
+          <p>Product List</p>
+        </md-input-container>
+      </div>
+    </md-content>
+    <md-content layout-padding>
+    <div>
+    <form class="simple-form" ng-submit="update()">
+    <div layout-gt-sm="row">
+    <md-input-container class="md-block" flex-gt-sm="">
+      <label>Name</label>
+      <input ng-model="productObj.productName">
+    </md-input-container>
+    </div>
+    <div>
+      <md-input-container class="md-block" flex-gt-sm="">
+        <label>Category</label>
+        <input ng-model="productObj.category">
+      </md-input-container>
+    </div>
+    <div>
+      <md-input-container class="md-block" flex-gt-sm="">
+        <label>Specs</label>
+        <input ng-model="productObj.specs">
+      </md-input-container >
+    </div>
+    <div>
+      <md-input-container class="md-block" flex-gt-sm="">
+        <label>Stocks</label>
+        <input ng-model="productObj.stock">
+      </md-input-container >
+    </div>
+    <div>
+      <!-- <md-button>save
+        Submit
+      </md-button> -->
+      <input type="button" name="" value="">
+      </div>
+    </form>
+    </div>
+  </md-content>
+  {{productObj}}
+  <pre>productObj  {{productObj | json}}</pre>
+  <pre>productList  {{productList | json}}</pre>
+  <pre>Message {{ message | json}}</pre>
+</div>
+</body>
+</html>
+>>>>>>> 91a19d8c6cb6a76a4e716366d46e46cb75949bf6

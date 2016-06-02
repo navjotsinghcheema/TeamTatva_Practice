@@ -1,0 +1,75 @@
+<<<<<<< HEAD
+.header{
+  background: white;
+  text-align:center ;
+
+}
+#pc, #cc{
+  color: blue;
+  font-size: 20px;
+    text-align: left;;
+
+}
+#sc{
+  font-style: normal;
+  text-align: center;
+
+}
+.footer{
+  background: white;
+  text-align: left;
+}
+.dongle{
+/*border-radius: solid;
+border-color: black;
+border-bottom: solid;
+border-right:  solid;
+border-width: thin;
+border-left:  solid;
+border-top:  solid;
+border-width: thin;
+padding-bottom: 60px:*/
+
+}
+
+.buttons{
+  text-align: center;
+}
+=======
+.header{
+  background: white;
+  text-align:center ;
+
+}
+#pc, #cc{
+  color: blue;
+  font-size: 20px;
+    text-align: left;;
+
+}
+#sc{
+  font-style: normal;
+  text-align: center;
+
+}
+.footer{
+  background: white;
+  text-align: left;
+}
+.dongle{
+/*border-radius: solid;
+border-color: black;
+border-bottom: solid;
+border-right:  solid;
+border-width: thin;
+border-left:  solid;
+border-top:  solid;
+border-width: thin;
+padding-bottom: 60px:*/
+
+}
+
+.buttons{
+  text-align: center;
+}
+>>>>>>> 91a19d8c6cb6a76a4e716366d46e46cb75949bf6
