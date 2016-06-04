@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 angular.module('orders', ['ngRoute','ngMaterial'])
 .controller('AppCtrl', function($scope, $http) {
   var search=window.location.search;
