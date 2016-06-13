@@ -48,8 +48,9 @@ d3.json("test9.json", function(error,root) {
         if((d.children ? d : d.parent).instanceType=="superUser"){return tattvaColor};
         if((d.children ? d : d.parent).instanceType=="organization"){return organizationColor};
         if((d.children ? d : d.parent).instanceType=="user"){return userColor};
-        if((d.children ? d : d.parent).instanceType=="watchlists owned"){return watchColor};
+        if((d.children ? d : d.parent).instanceType=="watchlists owned"){return "black"};
         if((d.children ? d : d.parent).instanceType=="Data Instance"){return instanceColor};
+        if((d.children ? d : d.parent).instanceType=="watch"){return "brown"};
        }
       )
       .on("click", click)
