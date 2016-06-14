@@ -12,7 +12,8 @@
     "children": [
       {
         "wathlists Owned": 10,
-        "instanceType": "watchlists owned"
+        "instanceType": "watchlists owned",
+        "children":[]
       }
     ]
   },
@@ -22,7 +23,8 @@
     "children": [
       {
         "wathlists Owned": 42,
-        "instanceType": "watchlists owned"
+        "instanceType": "watchlists owned",
+        "children":[]
       }
     ]
   },
@@ -32,7 +34,8 @@
     "children": [
       {
         "wathlists Owned": 14,
-        "instanceType": "watchlists owned"
+        "instanceType": "watchlists owned",
+        "children":[]
       }
     ]
   },
@@ -42,7 +45,8 @@
     "children": [
       {
         "wathlists Owned": 70,
-        "instanceType": "watchlists owned"
+        "instanceType": "watchlists owned",
+        "children":[]
       }
     ]
   },
@@ -52,7 +56,8 @@
     "children": [
       {
         "wathlists Owned": 4,
-        "instanceType": "watchlists owned"
+        "instanceType": "watchlists owned",
+        "children":[]
       }
     ]
   },
@@ -62,7 +67,8 @@
     "children": [
       {
         "wathlists Owned": 79,
-        "instanceType": "watchlists owned"
+        "instanceType": "watchlists owned",
+        "children":[]
       }
     ]
   },
@@ -72,7 +78,8 @@
     "children": [
       {
         "wathlists Owned": 62,
-        "instanceType": "watchlists owned"
+        "instanceType": "watchlists owned",
+        "children":[]
       }
     ]
   },
@@ -82,7 +89,8 @@
     "children": [
       {
         "wathlists Owned": 44,
-        "instanceType": "watchlists owned"
+        "instanceType": "watchlists owned",
+        "children":[]
       }
     ]
   },
@@ -92,7 +100,8 @@
     "children": [
       {
         "wathlists Owned": 26,
-        "instanceType": "watchlists owned"
+        "instanceType": "watchlists owned",
+        "children":[]
       }
     ]
   },
@@ -102,7 +111,8 @@
     "children": [
       {
         "wathlists Owned": 13,
-        "instanceType": "watchlists owned"
+        "instanceType": "watchlists owned",
+        "children":[]
       }
     ]
   },
@@ -112,7 +122,8 @@
     "children": [
       {
         "wathlists Owned": 56,
-        "instanceType": "watchlists owned"
+        "instanceType": "watchlists owned",
+        "children":[]
       }
     ]
   },
@@ -122,7 +133,8 @@
     "children": [
       {
         "wathlists Owned": 34,
-        "instanceType": "watchlists owned"
+        "instanceType": "watchlists owned",
+        "children":[]
       }
     ]
   },
@@ -132,7 +144,8 @@
     "children": [
       {
         "wathlists Owned": 10,
-        "instanceType": "watchlists owned"
+        "instanceType": "watchlists owned",
+        "children":[]
       }
     ]
   },
@@ -155,67 +168,171 @@
       {
         "name": "qui",
         "executing": 81,
-        "instanceType": "watch"
+        "instanceType": "watch",
+        "children":[
+          {
+            "name":"inst1",
+            "value":90
+          },
+          {
+            "name":"inst2",
+            "value":20
+          },
+          {
+            "name":"inst3",
+            "value":13
+          }
+        ]
       },
       {
         "name": "consequat",
         "executing": 3,
-        "instanceType": "watch"
+        "instanceType": "watch",
+        "children":[
+          {
+            "name":"inst1",
+            "value":90
+          },
+          {
+            "name":"inst2",
+            "value":20
+          },
+          {
+            "name":"inst3",
+            "value":13
+          }
+        ]
       },
       {
         "name": "deserunt",
         "executing": 54,
-        "instanceType": "watch"
+        "instanceType": "watch",
+        "children":[
+          {
+            "name":"inst1",
+            "value":90
+          },
+          {
+            "name":"inst2",
+            "value":20
+          },
+          {
+            "name":"inst3",
+            "value":13
+          }
+        ]
       },
       {
         "name": "eu",
         "executing": 9,
-        "instanceType": "watch"
+        "instanceType": "watch",
+        "children":[
+          {
+            "name":"inst1",
+            "value":90
+          },
+          {
+            "name":"inst2",
+            "value":20
+          },
+          {
+            "name":"inst3",
+            "value":13
+          }
+        ]
       },
       {
         "name": "amet",
         "executing": 18,
-        "instanceType": "watch"
+        "instanceType": "watch",
+        "children":[
+          {
+            "name":"inst1",
+            "value":90
+          },
+          {
+            "name":"inst2",
+            "value":20
+          },
+          {
+            "name":"inst3",
+            "value":13
+          }
+        ]
       },
       {
         "name": "occaecat",
         "executing": 61,
-        "instanceType": "watch"
+        "instanceType": "watch",
+        "children":[
+          {
+            "name":"inst1",
+            "value":90
+          },
+          {
+            "name":"inst2",
+            "value":20
+          },
+          {
+            "name":"inst3",
+            "value":13
+          }
+        ]
       },
       {
         "name": "qui",
         "executing": 71,
-        "instanceType": "watch"
+        "instanceType": "watch",
+        "children":[
+          {
+            "name":"inst1",
+            "value":90
+          },
+          {
+            "name":"inst2",
+            "value":20
+          },
+          {
+            "name":"inst3",
+            "value":13
+          }
+        ]
       },
       {
         "name": "ipsum",
         "executing": 56,
-        "instanceType": "watch"
+        "instanceType": "watch",
+        "children":[]
       },
       {
         "name": "quis",
         "executing": 84,
-        "instanceType": "watch"
+        "instanceType": "watch",
+        "children":[]
       },
       {
         "name": "esse",
         "executing": 36,
-        "instanceType": "watch"
+        "instanceType": "watch",
+        "children":[]
       },
       {
         "name": "non",
         "executing": 16,
-        "instanceType": "watch"
+        "instanceType": "watch",
+        "children":[]
       },
       {
         "name": "ullamco",
         "executing": 77,
-        "instanceType": "watch"
+        "instanceType": "watch",
+        "children":[]
       },
       {
         "name": "voluptate",
         "executing": 43,
-        "instanceType": "watch"
+        "instanceType": "watch",
+        "children":[]
       },
       {
         "name": "nulla",

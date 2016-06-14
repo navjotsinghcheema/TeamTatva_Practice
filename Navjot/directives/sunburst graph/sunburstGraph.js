@@ -8,6 +8,13 @@ var x = d3.scale.linear()
 var y = d3.scale.sqrt()
     .range([0, radius]);
 
+// var colors = {
+//   "tattvaColor" : "#258faf",
+//   "organizationColor" : "#25afa2",
+//   "userColor" : "#af25ab",
+//   "watchColor" : "#ac9b98",
+//   "instanceColor" : "#afa925"
+// };
 // var color = d3.scale.category20c();
 var tattvaColor = "#258faf";
 var organizationColor = "#25afa2" ;
@@ -35,7 +42,6 @@ var arc = d3.svg.arc()
 
 // Keep track of the node that is currently being displayed as the root.
 var node;
-
 d3.json("test9.json", function(error,root) {
   if(error){console.log("invalid JSON");}
   node = root;
@@ -45,13 +51,17 @@ d3.json("test9.json", function(error,root) {
     .enter().append("path")
       .attr("d", arc)
       .style("fill", function(d) {
-        if((d.children ? d : d.parent).instanceType=="superUser"){return tattvaColor};
-        if((d.children ? d : d.parent).instanceType=="organization"){return organizationColor};
-        if((d.children ? d : d.parent).instanceType=="user"){return userColor};
-        if((d.children ? d : d.parent).instanceType=="watchlists owned"){return "black"};
-        if((d.children ? d : d.parent).instanceType=="Data Instance"){return instanceColor};
-        if((d.children ? d : d.parent).instanceType=="watch"){return "brown"};
-       }
+        // console.log(colors[JSON.stringify(d.instanceType)]);
+        // console.log(d.instanceType);
+        // if(colors[d.instanceType]){return colors[d.instanceType];}
+        // else{return "grey";}
+        if(d.instanceType=="watch"){return "red"};
+        if(d.instanceType=="superUser"){return tattvaColor};
+        if(d.instanceType=="organization"){return organizationColor};
+        if(d.instanceType=="user"){return userColor};
+        if(d.instanceType=="watchlists owned"){return "black"};
+        if(d.instanceType=="Data Instance"){return instanceColor};
+      }
       )
       .on("click", click)
       .each(stash);
