@@ -247,7 +247,7 @@
         "instanceType": "watch",
         "children":[
           {
-            "name":"inst1",
+            "name":"int1",
             "value":90
           },
           {

@@ -1,12 +1,12 @@
-angular.module('sunburst').controller('sunburstGraph',function($scope){
+angular.module('sunburst',[]).controller('sunburstGraph',function($scope){
   $http.get("/<url of the json file>").then(function(res){
     $scope.sunburstData = res.data;
   }, function(res){
     //error
   });
-});
+})
 
-angular.module('sunburst').directive('sunburstChart',function($scope){
+.directive('sunburstChart',function($scope){
   return{
     scope:{
       data:"<sunburstData",
