@@ -46,6 +46,7 @@ d3.json("test9.json", function(error,root) {
   if(error){console.log("invalid JSON");}
   node = root;
   console.log("root ",root);
+  // console.log("node ",node);
   var path = svg.datum(root).selectAll("path")
       .data(partition.nodes)
     .enter().append("path")

@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<head>
 <style>
-body {
+/*#sunburstChartDiv{
+  }*/
+#sbrst {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: auto;
   position: relative;
-  width: 960px;}
+  /*align:left;*/
+  background: #fff;
+  margin: 30px;
+    /*height: 500px;
+    width: 1200px;*/
+}
+.vertical-divider {
+  padding-top: 4.6%;
+  width: 6%;
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  padding-bottom: 0px;
+}
 form {
   position: absolute;
   right: 10px;
@@ -14,21 +29,52 @@ path {
   stroke: #fff;
   fill-rule: evenodd;}
 </style>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+</head>
+<!-- <body> -->
 <body ng-app="sunburst" ng-controller="sunburstGraph">
-  {{sunburstData}}
-  <sunburstchart sunburstData="sunburstData"></sunburstchart>
-<!-- <body ng-app="sunburst" ng-controller="sunburstGraph"> -->
-<!-- <script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="sunburstGraph.js"></script> -->
+<!-- <div layout="row"> -->
+<!-- <div layout="row" layout-padding layout-wrap ng-cloak> -->
+<!-- <div ng-cloak layout-align="center center"> -->
+
+
+    <!-- <div style="float:left" flex-offset="10" flex="40"> -->
+      <sunburstchart data="sunburstData" change='onSelectedData(data)'></sunburstchart>
+
+      <p>
+        {{currentSelection | json}}
+      </p>
+    <!-- </div> -->
+  <!-- </md-whiteframe> -->
+  <!-- <md-whiteframe class="md-whiteframe-3dp" flex-sm="" flex-gt-sm="90" flex-gt-md=""> -->
+  <!-- <md-divider></md-divider>
+    <div flex-offset="10" flex="30">
+      <h2>Instance details</h2>
+      <h4>Selection Name : {{selection.name}}</h4>
+      <p>Instance Type : {{selection.instanceType}}</p>
+      <p>{{selection.children[0].instanceType}} : {{selection.children.length}}</p>
+    </div>-->
+
+    <!-- </div> -->
+  <!-- </md-whiteframe> -->
+<!-- </div> -->
+
+    <!-- <md-whiteframe class="md-whiteframe-3dp" flex-sm="45" flex-gt-sm="35" flex-gt-md="25" layout layout-align="center center">
+    <span>.md-whiteframe-3dp</span>
+  </md-whiteframe> -->
+  <!-- <div><sunburstchart data="sunburstData" selectedInstance="selection"></sunburstchart></div> -->
+  <!-- <div><h3>Current Selection</h3>
+  {{selection}}</div> -->
+
 
 </body>
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
- <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script> -->
 <script src="http://d3js.org/d3.v3.min.js"></script>
- <script src="./sunDir.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+<script src="./sunDir.js"></script>
 
 <!-- <script src="sunburstGraph.js"></script> -->
 
