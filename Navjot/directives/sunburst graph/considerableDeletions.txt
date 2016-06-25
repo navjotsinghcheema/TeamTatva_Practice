@@ -1,0 +1,68 @@
+// $scope.someVar.one="BLAAAA";
+
+// console.log($scope.someVar);
+// console.log($scope.selectedinstance);
+
+// console.log(typeof $scope.selectedinstance);
+
+
+// function isCyclic (obj) {
+//   var seenObjects = [];
+//
+//   function detect (obj) {
+//     if (obj && typeof obj === 'object') {
+//       if (seenObjects.indexOf(obj) !== -1) {
+//         return true;
+//       }
+//       seenObjects.push(obj);
+//       for (var key in obj) {
+//         if (obj.hasOwnProperty(key) && detect(obj[key])) {
+//           console.log(obj, 'cycle at ' + key);
+//           console.log(obj[key]);
+//           console.log(obj[key] == obj);
+//           return true;
+//         }
+//       }
+//     }
+//     return false;
+//   }
+//
+//   return detect(obj);
+// }
+// $scope.keys;
+
+
+// $scope.children = d["children"].length;
+// console.log("children,",$scope.children);
+// $scope.keys = Object.keys(d);
+// console.log($scope.keys);
+// console.log($scope.selectedinstance[$scope.keys[2]]);
+// var cyclic = isCyclic($scope.selectedinstance.children[0]);
+
+
+----------------index.html---------------------
+
+      <!-- <p>
+        {{currentSelection | json}}
+      </p> -->
+    <!-- </div> -->
+  <!-- </md-whiteframe> -->
+  <!-- <md-whiteframe class="md-whiteframe-3dp" flex-sm="" flex-gt-sm="90" flex-gt-md=""> -->
+  <!-- <md-divider></md-divider>
+    <div flex-offset="10" flex="30">
+      <h2>Instance details</h2>
+      <h4>Selection Name : {{selection.name}}</h4>
+      <p>Instance Type : {{selection.instanceType}}</p>
+      <p>{{selection.children[0].instanceType}} : {{selection.children.length}}</p>
+    </div>-->
+
+    <!-- </div> -->
+  <!-- </md-whiteframe> -->
+<!-- </div> -->
+
+    <!-- <md-whiteframe class="md-whiteframe-3dp" flex-sm="45" flex-gt-sm="35" flex-gt-md="25" layout layout-align="center center">
+    <span>.md-whiteframe-3dp</span>
+  </md-whiteframe> -->
+  <!-- <div><sunburstchart data="sunburstData" selectedInstance="selection"></sunburstchart></div> -->
+  <!-- <div><h3>Current Selection</h3>
+  {{selection}}</div> -->

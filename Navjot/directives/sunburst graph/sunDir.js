@@ -1,100 +1,55 @@
 angular.module('sunburst', ['ngMaterial'])
 .controller('sunburstGraph',['$scope','$http',function($scope, $http){
   var currentInstance=null;
+  $scope.stats=null;
     function getGraphdata() {
-    $http.get('/test9.json').then(function(res){
+    $http.get('/test12.json').then(function(res){
       $scope.sunburstData = res.data;
-      // console.log("Graph data from server: ", res.data);
     },function(res){
       console.log("Error in getting graph data from server, error: ", res.data);
     });
-    // $scope.selection={};
   }
   getGraphdata();
-
-  function onSelectedData(data) {
-    $scope.currentSelection = data;
-  }
-
+  stats = function(selectionObj){
+    $scope.tattvaStats = selectionObj;
+    console.log("selection right outaa parent scope:",$scope.tattvaStats);
+  //  return $scope.tattvaStats;
+  };
   }])
 .directive('sunburstchart',function(){
   return{
     restrict:'EA',
+    transclude:true,
     templateUrl:"sunDir.html",
-    controllerAs :'ctrl',
-    // template: "<div id='sunburstcontainer'></div> ",
     scope:{
       data:"<data",
-      change: '&change'
-      // selectedinstance:"=selectedinstance"
+      stats:"&stats"
+      // change:'&change'
     },
     controller: ['$scope',function ($scope){
       // $scope.someVar = {"one":"SomeString"};
-      $scope.selectedinstance={"name":"tattva"};
+      $scope.selectedinstance={};
+      setRootNode = function(root){
+        $scope.selectedinstance = root;
+      };
       setSelectDetails=function(d){
-        // $scope.someVar.one="BLAAAA";
-
-        // console.log($scope.someVar);
-        // console.log($scope.selectedinstance);
-
-        // console.log(typeof $scope.selectedinstance);
-
-
-        // function isCyclic (obj) {
-        //   var seenObjects = [];
-        //
-        //   function detect (obj) {
-        //     if (obj && typeof obj === 'object') {
-        //       if (seenObjects.indexOf(obj) !== -1) {
-        //         return true;
-        //       }
-        //       seenObjects.push(obj);
-        //       for (var key in obj) {
-        //         if (obj.hasOwnProperty(key) && detect(obj[key])) {
-        //           console.log(obj, 'cycle at ' + key);
-        //           console.log(obj[key]);
-        //           console.log(obj[key] == obj);
-        //           return true;
-        //         }
-        //       }
-        //     }
-        //     return false;
-        //   }
-        //
-        //   return detect(obj);
-        // }
-        // $scope.keys;
-        var count=0;
+                var count=0;
         $scope.$apply(function(){
-          // console.log("I am inside $apply");
-          console.log(++count);
           $scope.selectedinstance=d;
-          // $scope.keys = Object.keys(d);
-          // console.log($scope.keys);
-          // console.log($scope.selectedinstance[$scope.keys[2]]);
-          // var cyclic = isCyclic($scope.selectedinstance.children[0]);
-          console.log("currentInstance",$scope.selectedinstance);
-          // console.log("Cyclic: ", cyclic);
         });
       }
-      // $scope.selectedinstance={name:"tattva",instanceType:"superUser",children:[{name:"organization1",instanceType:"organization"}]};
-      // $scope.$watch('$scope.selectedinstance',function(nv,ov){
-      //   console.log($scope.selectedinstance);
-      // });
     }],
+    controllerAs :'ctrl',
     link:function(scope, element, attrs){
-      // scope.selectedinstance = {};
-      console.log(scope.selectedinstance);
-      // var selectedinstance = {};
-            scope.$watch('data', function(nv, ov) {
-        // console.log("Got new data for graph in $watch: ", nv);
+        scope.$watch('data', function(nv, ov) {
         scope.data = nv;
         root = scope.data;
+        // setRootNode(root);
         if(root)
           drawMap(root);
       });
       var width = 400,
-          height = 400,
+          height = 450,
           radius = Math.min(width, height) / 2;
 
       var x = d3.scale.linear()
@@ -134,18 +89,20 @@ angular.module('sunburst', ['ngMaterial'])
 
       var node;
       function drawMap(root) {
+        // setRootNode(root);
         node = root;
         var path = svg.datum(root).selectAll("path")
             .data(partition.nodes)
           .enter().append("path")
             .attr("d", arc)
             .style("fill", function(d) {
-              if(d.instanceType=="watch"){return "red"};
               if(d.instanceType=="superUser"){return tattvaColor};
               if(d.instanceType=="organization"){return organizationColor};
               if(d.instanceType=="user"){return userColor};
-              if(d.instanceType=="watchlists owned"){return "black"};
-              if(d.instanceType=="Data Instance"){return instanceColor};
+              if(d.instanceType=="namespace"){return "grey"};
+              if(d.instanceType=="Instance"){return "brown"};
+              if(d.instanceType=="stream"){return "pink"}
+              if(d.instanceType=="watchlist"){return "red"};
             })
             .on("click", click)
             // .on("mouseover",updateLegend)
@@ -157,10 +114,6 @@ angular.module('sunburst', ['ngMaterial'])
           path.transition()
             .duration(700)
             .attrTween("d", arcTweenZoom(d));
-      // svg.select("g").append("svg:text")
-      //   .style("font-size","4em")
-      //   .style("font-weight","bold")
-      //   .text(function(d) { return d.name; });
         }
         // var legend = svg.append("g")
         //                 .attr("class","legend")
@@ -212,8 +165,9 @@ angular.module('sunburst', ['ngMaterial'])
       function arcTweenZoom(d) {
         // console.log("printing from dir",d);
         var obj=createobj(d);
-        // setSelectDetails(d);
-        change(d);
+        setSelectDetails(obj);
+        stats(d);
+        // change(d);
         // scope.selectedinstance=d;
         // console.log("selected instance:",scope.selectedinstance);
         var xd = d3.interpolate(x.domain(), [d.x, d.x + d.dx]),
@@ -225,18 +179,20 @@ angular.module('sunburst', ['ngMaterial'])
               : function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); return arc(d); };
         };
       }
+
       function createobj(d){
         var returnObject = {
-          name: d.name,
-          instanceType:d.instanceType
-        };
+          "name": d.name,
+          "instanceType":d.instanceType
+          };
         // if(d.children[0].name)
 
-        if(d.children[0].name){
-        // returnObject[d.children[0].instanceType] = d.children.length;}
-        returnObject["children"]=d.children.length;}
+        if(d.children.length>0){
+        // returnObject[d.children[0].instanceType] = d.children.length;
+          returnObject["children"]=d.children.length;
+          }
         return returnObject;
+        }
       }
     }
-  };
 });

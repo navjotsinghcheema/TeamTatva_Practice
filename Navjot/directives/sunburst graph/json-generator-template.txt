@@ -1,0 +1,44 @@
+json-generator format
+
+[
+    {
+    name:"Tattva",
+    instanceType:"Super User",
+    children:[
+      '{{repeat(5,7)}',
+      {
+        name:'{{lorem(1,"words")}}',
+        instanceType:"organization",
+        children:[
+          '{{repeat(5,7)}}',
+          {
+            name:'{{lorem(1,"words")}}',
+            instanceType:"user",
+            children:[
+              '{{repeat(5,7)}}',
+              {
+                name:'{{lorem(1,"words")}}',
+                instanceType:"namespace",
+                children:[
+                  '{{repeat(5,7)}}',
+                  {
+                    name:'{{lorem(1,"words")}}',
+                    instanceType:"instance",
+                    children:[
+                      '{{repeat(5,7)}}',
+                      {
+                        name:'{{lorem(1,"words")}}',
+                        instanceType:"watchlist",
+                        dataload:'{{integer(0,10)}}'
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
