@@ -1,0 +1,27 @@
+<!-- <md-toolbar> -->
+<span ng-repeat="x in result">
+:{{x}}
+</span>
+<!-- </md-toolbar> -->
+<md-toolbar>
+  <div class="md-toolbar-tools md-scroll-shrink">
+    STATISTICS
+  </div>
+</md-toolbar>
+<div layout-align="center center" flex-offset="5">
+<md-whiteframe layout="row" class="md-whiteframe-3dp" flex-sm="" flex-gt-sm="95" flex-gt-md="">
+<md-content>
+<!-- <pre>{{stats|json}}</pre> -->
+</md-content>
+</md-whiteframe>
+</div>
+
+<div layout-align="center center" flex-offset="5">
+  <md-whiteframe layout="row" class="md-whiteframe-3dp" flex-sm="" flex-gt-sm="95" flex-gt-md="">
+      <div id='outer' style="margin-top:40px; padding:10px">
+        <div id="main" style="width:600px; height:200px; margin: 0px auto; ">
+        <radialchart id="div1"></radialchart>
+        </div>
+      </div>
+  </md-whiteframe>
+<!-- </div> -->

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <meta charset="utf-8">
 <head>
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
@@ -7,8 +8,8 @@
 <body ng-app="sunburst" ng-controller="sunburstGraph">
 
   <sunburstchart data="sunburstData" stats="stats(selectionObj)"></sunburstchart>
-  <pre>{{sunburstData}}</pre>
-  <statistics stats="tattvaStats"></statistics>
+  <!-- <pre>{{sunburstData}}</pre> -->
+  <selection data="sunburstData" stats="tattvaStats"></selection>
 
 </body>
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
@@ -17,5 +18,9 @@
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+<script src="./sunController.js"></script>
 <script src="./sunDir.js"></script>
-<script src="./statistics.js"></script>
+<script src="./selection.js"></script>
+<script type="text/javascript" src="./radialDirective.js"></script>
+
+</html>

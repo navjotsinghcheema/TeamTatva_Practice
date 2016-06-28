@@ -1,59 +1,32 @@
 {
   "name":"Tattva",
   "instanceType":"superUser",
+  "level":1,
   "children":[
     {
       "name":"organization1",
       "instanceType":"organization",
+      "level":2,
       "children":[
-        {
-          "name":"user1",
-          "instanceType":"user",
-          "children":[
             {
-              "name":"namespace1",
+              "name":"namesp",
               "instanceType":"namespace",
+              "level":3,
               "children":[
                 {
                   "name":"instance1",
                   "instanceType":"instance",
+                  "level":4,
                   "children":[
                     {
                       "name":"stream1",
                       "instanceType":"stream",
+                      "level":5,
                       "children":[
                         {
                           "name":"watchlist1",
                           "instanceType":"watchlist",
-                          "dataload":0
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name":"user2",
-          "instanceType":"user",
-          "children":[
-            {
-              "name":"namespace1",
-              "instanceType":"namespace",
-              "children":[
-                {
-                  "name":"instance1",
-                  "instanceType":"instance",
-                  "children":[
-                    {
-                      "name":"stream1",
-                      "instanceType":"stream",
-                      "children":[
-                        {
-                          "name":"watchlist1",
-                          "instanceType":"watchlist",
+                          "level":6,
                           "dataload":0
                         }
                       ]
@@ -63,25 +36,57 @@
               ]
             },
             {
-              "name":"namespace2",
+              "name":"namespace6",
               "instanceType":"namespace",
+              "level":3,
               "children":[
                 {
                   "name":"instance1",
                   "instanceType":"instance",
+                  "level":4,
                   "children":[
                     {
                       "name":"stream1",
                       "instanceType":"stream",
+                      "level":5,
                       "children":[
                         {
                           "name":"watchlist1",
                           "instanceType":"watchlist",
+                          "level":6,
+                          "dataload":0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name":"namespace7",
+              "instanceType":"namespace",
+              "level":3,
+              "children":[
+                {
+                  "name":"instance1",
+                  "instanceType":"instance",
+                  "level":4,
+                  "children":[
+                    {
+                      "name":"stream1",
+                      "instanceType":"stream",
+                      "level":5,
+                      "children":[
+                        {
+                          "name":"watchlist1",
+                          "instanceType":"watchlist",
+                          "level":6,
                           "dataload":0
                         },
                         {
                           "name":"watchlist2",
                           "instanceType":"watchlist",
+                          "level":6,
                           "dataload":0
                         }
                       ]
@@ -89,20 +94,24 @@
                     {
                       "name":"stream2",
                       "instanceType":"stream",
+                      "level":5,
                       "children":[
                         {
                           "name":"watchlist1",
                           "instanceType":"watchlist",
+                          "level":6,
                           "dataload":0
                         },
                         {
                           "name":"watchlist2",
                           "instanceType":"watchlist",
+                          "level":6,
                           "dataload":120
                         },
                         {
                           "name":"watchlist3",
                           "instanceType":"watchlist",
+                          "level":6,
                           "dataload":120
                         }
                       ]
@@ -111,33 +120,32 @@
                 }
               ]
             }
-          ]
-        }
       ]
     },
     {
-      "name":"organization2",
+      "name":"organization4",
       "instanceType":"organization",
+      "level":2,
       "children":[
-        {
-          "name":"user2",
-          "instanceType":"user",
-          "children":[
             {
-              "name":"namespace1",
+              "name":"namespace4",
               "instanceType":"namespace",
+              "level":3,
               "children":[
                 {
                   "name":"instance1",
                   "instanceType":"instance",
+                  "level":4,
                   "children":[
                     {
                       "name":"stream1",
                       "instanceType":"stream",
+                      "level":5,
                       "children":[
                         {
                           "name":"watchlist1",
                           "instanceType":"watchlist",
+                          "level":6,
                           "dataload":0
                         }
                       ]
@@ -146,8 +154,6 @@
                 }
               ]
             }
-          ]
-        }
       ]
     }
   ]

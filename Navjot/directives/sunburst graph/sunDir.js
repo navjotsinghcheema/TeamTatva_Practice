@@ -1,22 +1,4 @@
-angular.module('sunburst', ['ngMaterial'])
-.controller('sunburstGraph',['$scope','$http',function($scope, $http){
-  var currentInstance=null;
-  $scope.stats=null;
-    function getGraphdata() {
-    $http.get('/test12.json').then(function(res){
-      $scope.sunburstData = res.data;
-    },function(res){
-      console.log("Error in getting graph data from server, error: ", res.data);
-    });
-  }
-  getGraphdata();
-  stats = function(selectionObj){
-    $scope.tattvaStats = selectionObj;
-    console.log("selection right outaa parent scope:",$scope.tattvaStats);
-  //  return $scope.tattvaStats;
-  };
-  }])
-.directive('sunburstchart',function(){
+angular.module('sunburst').directive('sunburstchart',function(){
   return{
     restrict:'EA',
     transclude:true,
@@ -41,6 +23,7 @@ angular.module('sunburst', ['ngMaterial'])
     }],
     controllerAs :'ctrl',
     link:function(scope, element, attrs){
+      // console.log("sunburstchart scope");
         scope.$watch('data', function(nv, ov) {
         scope.data = nv;
         root = scope.data;
@@ -56,15 +39,6 @@ angular.module('sunburst', ['ngMaterial'])
           .range([0, 2 * Math.PI]);
       var y = d3.scale.sqrt()
           .range([0, radius]);
-
-      // var colors = {
-      //   "tattvaColor" : "#258faf",
-      //   "organizationColor" : "#25afa2",
-      //   "userColor" : "#af25ab",
-      //   "watchColor" : "#ac9b98",
-      //   "instanceColor" : "#afa925"
-      // };
-      // var color = d3.scale.category20c();
       var tattvaColor = "#258faf";
       var organizationColor = "#25afa2" ;
       var userColor = "#af25ab";
@@ -166,7 +140,11 @@ angular.module('sunburst', ['ngMaterial'])
         // console.log("printing from dir",d);
         var obj=createobj(d);
         setSelectDetails(obj);
-        stats(d);
+        // var statsObj = {
+        //   name:d.name,
+        //   instanceType:d.instanceType
+        // };
+        stats(obj);
         // change(d);
         // scope.selectedinstance=d;
         // console.log("selected instance:",scope.selectedinstance);
@@ -183,7 +161,8 @@ angular.module('sunburst', ['ngMaterial'])
       function createobj(d){
         var returnObject = {
           "name": d.name,
-          "instanceType":d.instanceType
+          "instanceType":d.instanceType,
+          "level":d.level
           };
         // if(d.children[0].name)
 
